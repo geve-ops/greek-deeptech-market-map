@@ -150,5 +150,13 @@
  "Causaly": {
   "file": "causaly__4_icon.png",
   "mode": "icon"
+ },
+ "Anodyne Nanotech": {
+  "file": "anodyne-nanotech__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Robenso": {
+  "file": "robenso__0_logo-img.png",
+  "mode": "wide"
  }
 }

@@ -144,27 +144,34 @@
  },
  "Robenso": {
   "status": "ok",
-  "site": "https://www.robenso.com/",
+  "site": "https://robenso.gr/",
   "files": [
    {
-    "file": "0_icon.png",
-    "url": "https://static.wixstatic.com/media/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png",
-    "kind": "icon:apple-touch-icon",
-    "bytes": 38133,
+    "file": "0_logo-img.png",
+    "url": "https://robenso.gr/assets/images/logo/logo.png",
+    "kind": "logo-img",
+    "bytes": 6844,
     "type": "image/png"
    },
    {
-    "file": "1_icon.png",
-    "url": "https://static.wixstatic.com/media/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png",
-    "kind": "icon:icon",
-    "bytes": 41343,
+    "file": "1_logo-img.png",
+    "url": "https://robenso.gr/assets/images/logo/logo.png",
+    "kind": "logo-img",
+    "bytes": 6844,
     "type": "image/png"
    },
    {
-    "file": "2_icon.png",
-    "url": "https://static.wixstatic.com/media/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png",
+    "file": "2_logo-img.png",
+    "url": "https://robenso.gr/assets/images/logo/logo.png",
+    "kind": "logo-img",
+    "bytes": 6844,
+    "type": "image/png"
+   },
+   {
+    "file": "3_icon.png",
+    "url": "https://robenso.gr/assets/images/logo/favicon.png",
     "kind": "icon:shortcut icon",
-    "bytes": 3328,
+    "bytes": 3067,
     "type": "image/png"
    }
   ]
@@ -1088,8 +1095,8 @@
  "Better Origin": {
   "status": "site not found",
   "tried": [
-   "betterorigin.co",
-   "betterorigin.com"
+   "betterorigin.com",
+   "betterorigin.co"
   ]
  },
  "Centaur Analytics": {
@@ -1231,13 +1238,41 @@
  },
  "Anodyne Nanotech": {
   "status": "ok",
-  "site": "https://forsale.dynadot.com/anodynenanotech.com?drefid=2071",
+  "site": "https://www.theheropatch.com/",
   "files": [
    {
     "file": "0_logo-img.png",
-    "url": "https://forsale.dynadot.com/tr/mainsite2023/navbar-logo-dark-2023.png",
+    "url": "https://static.wixstatic.com/media/6c0c4f_07b04792c8854424849a60fe92a90bec~mv2.png/v1/fill/w_279,h_60,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo_Anodyne_Nanotech_Black_crop.png",
     "kind": "logo-img",
-    "bytes": 2497,
+    "bytes": 7473,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://static.wixstatic.com/media/6c0c4f_f31414e379704f93a65bd189d17c0c2a~mv2.png/v1/fill/w_231,h_57,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo_Anodyne_Nanotech_White_crop.png",
+    "kind": "logo-img",
+    "bytes": 6460,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://static.wixstatic.com/media/6c0c4f_68795ace1dd24371980117ad0af36747%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/6c0c4f_68795ace1dd24371980117ad0af36747%7Emv2.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 13904,
+    "type": "image/png"
+   },
+   {
+    "file": "3_icon.png",
+    "url": "https://static.wixstatic.com/media/6c0c4f_68795ace1dd24371980117ad0af36747%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/6c0c4f_68795ace1dd24371980117ad0af36747%7Emv2.png",
+    "kind": "icon:icon",
+    "bytes": 11724,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://static.wixstatic.com/media/6c0c4f_68795ace1dd24371980117ad0af36747%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/6c0c4f_68795ace1dd24371980117ad0af36747%7Emv2.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 2161,
     "type": "image/png"
    }
   ]
