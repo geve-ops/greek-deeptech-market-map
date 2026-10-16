@@ -82,27 +82,27 @@ def bar(ax, items, color, title):
 # ---------------------------------------------------------------- analysis
 with PdfPages(OUT + "/greek_deeptech_analysis.pdf") as pdf:
     TOTAL = 3
-    pg = Page(pdf, "Greek Deep Tech: Analysis", "What is crowded, what is missing, how it is funded, who is active. Based on the 61 mapped companies in the dataset.")
+    pg = Page(pdf, "Greek Deep Tech: Analysis", "What is crowded, what is missing, how it is funded, who is active. Based on the 63 mapped companies in the dataset.")
     pg.h("Read this first")
-    pg.p("The dataset has 82 rows: 61 mapped (30 Include, 31 Borderline), 6 on Hold because a Greek link or source could not be found after repeated searches, and 15 excluded. "
-         "Every number below comes from those rows or from the sources listed on page 3. The 61 companies were found by sweeping VC portfolios and news lists, "
+    pg.p("The dataset has 82 rows: 63 mapped (31 Include, 32 Borderline), 2 on Hold because nothing current could be found (PiDust, QUBITECH), and 17 excluded. "
+         "Every number below comes from those rows or from the sources listed on page 3. The 63 companies were found by sweeping VC portfolios and news lists, "
          "so they are a sample of the ecosystem, not a census. Counts show where evidence was found, not market share.")
     pg.h("Shape of the map")
     gs = pg.fig.add_axes([0.24, 0.5, 0.26, 0.19])
-    bar(gs, [("Robotics & Drones", 13), ("Health & Biotech", 12), ("AI & ML", 10), ("Space & Defense", 9),
+    bar(gs, [("Robotics & Drones", 13), ("Health & Biotech", 13), ("AI & ML", 11), ("Space & Defense", 9),
              ("Energy & Climate", 7), ("Semiconductors", 5), ("Industrial & Mfg", 5), ("Quantum", 0)], PURPLE, "Companies by category")
     gs2 = pg.fig.add_axes([0.7, 0.5, 0.22, 0.19])
-    bar(gs2, [("Pre-seed / seed", 29), ("Series A and later", 15), ("Stage not found", 13), ("Exited", 4)], BLUE, "Companies by stage")
+    bar(gs2, [("Pre-seed / seed", 29), ("Series A and later", 15), ("Stage not found", 14), ("Exited", 5)], BLUE, "Companies by stage")
     pg.y = 0.48 * H - 0.0
-    pg.p("Stage is read from the last round on record. Four exits sit on the map as context: Think Silicon (acquired by Applied Materials, 2020), "
-         "MarineTraffic (Kpler, 2023), Augmenta (CNH Industrial, 2023, enterprise value USD 110M) and Seervision (Q-SYS, announced 2023).")
+    pg.p("Stage is read from the last round on record. Five exits sit on the map as context: Think Silicon (acquired by Applied Materials, 2020), "
+         "MarineTraffic (Kpler, 2023), Augmenta (CNH Industrial, 2023, enterprise value USD 110M), Seervision (Q-SYS, announced 2023) and Code BGP (Cisco, undated).")
     pg.h("What is crowded")
-    pg.p("Robotics & Drones (13 names) and Health & Biotech (12) are the most populated boxes, and both are mostly early. "
+    pg.p("Robotics & Drones (13 names) and Health & Biotech (13) are the most populated boxes, and both are mostly early. "
          "In robotics, 6 of 13 companies are seed stage (Acumino, Progressive Robotics, Velos Rotors, Robenso, Bota Systems, Terra Robotics), one is an exit (Augmenta) and five have no external round found (Gizelis, Altus LSA, SAS Technology, Aether Aeronautics, Ucandrone). "
          "Health is more varied (Intelligencia, Anodyne Nanotech, Brainomix and Causaly are Series A or later).", bullet="-", indent=0.2)
     pg.p("Defense and drones is where company count outruns venture capital. Altus LSA (Chania), SAS Technology (Athens), Aether Aeronautics (Chania), Ucandrone (Koropi) and Velos Rotors (Xylokastro) are all drone makers, "
          "yet only Velos Rotors (USD 2M seed, Marathon, 2023) has a disclosed venture round; EFA Group has made undisclosed strategic investments in Aether and Ucandrone. A Greek press study cited by To Vima counts nine defense and dual-use startups raising a combined EUR 19.21M.", bullet="-", indent=0.2)
-    pg.p("AI is crowded with applications, not infrastructure. Moveo.AI, Bitloops, Keragon, Intryc, Pallma AI, Proxy Foods AI and Intelistyle are application-layer companies; "
+    pg.p("AI is crowded with applications, not infrastructure. Moveo.AI, Bitloops, Keragon, Intryc, Pallma AI, Proxy Foods AI, Intelistyle and SquareDev are application-layer companies; "
          "TileDB / Tile.ai (data infrastructure, USD 34M Series B, 2023) is the one infrastructure name.", bullet="-", indent=0.2)
     pg.footer(1, TOTAL)
     pg.save()
@@ -118,7 +118,7 @@ with PdfPages(OUT + "/greek_deeptech_analysis.pdf") as pdf:
          "Axelera AI, the largest round tied to the ecosystem (more than USD 250M, February 2026), is Borderline: its CTO and co-founder is Greek and it hires engineers remotely in Greece, but no Greek office was found and its CEO is Italian.", bullet="-", indent=0.2)
     pg.p("Energy and climate: seven names (WeatherXM, Better Origin, Centaur Analytics, PlugSecure, Pinepeak, ClearDrop, Neurohive); four are Genesis Ventures portfolio companies. Piq Energy, which appears in Marathon's 2026 round list, is San Francisco-based with no Greek link found, so it is not on the map.", bullet="-", indent=0.2)
     pg.p("The Series A bridge: of the 15 companies at Series A or later, only 3 list a Greek headquarters (WeatherXM, Delian Alliance Industries, DeepSea Technologies). "
-         "At least 24 of the 61 mapped companies are headquartered outside Greece (for example Perceptual Robotics in the UK, TileDB in the US, Bota Systems in Switzerland). "
+         "At least 25 of the 63 mapped companies are headquartered outside Greece (for example Perceptual Robotics in the UK, TileDB in the US, Bota Systems in Switzerland). "
          "Greek capital seeds them; growth capital and headquarters tend to move abroad. HQ is unconfirmed for Causaly, Keragon and Achira AI.", bullet="-", indent=0.2)
     pg.h("Funding patterns")
     pg.p("Marathon Venture Capital data, reported by MoneyBuzz on 2026-10-11, counts USD 435M raised by Greek startups so far in 2026 across 38 rounds. "
@@ -138,7 +138,7 @@ with PdfPages(OUT + "/greek_deeptech_analysis.pdf") as pdf:
             ("Big Pi Ventures", "7", "Acumino, TileDB, Intelligencia, ORamaVR, Anodyne Nanotech, Corsmed, Navenio"),
             ("Metavallon VC", "9", "Perceptual Robotics, Think Silicon, Anacalypsis, Better Origin, Bioemtech, Feel Therapeutics, Purposeful, Seervision, Intelistyle"),
             ("Genesis Ventures", "9", "Progressive Robotics, Feel Therapeutics, ClearDrop, Terra Robotics, Neurohive, PlugSecure, Pinepeak, Hoplon AI, Pleioflow"),
-            ("Evercurious VC", "4", "SolidWatts, ORamaVR, Anodyne Nanotech, Circuits Integrated"),
+            ("Evercurious VC", "5", "SolidWatts, ORamaVR, Anodyne Nanotech, Circuits Integrated, Koios Care"),
             ("Uni.Fund (3), Eleven Ventures, Velocity Partners VC, Helidoni Group, EFA Group (2 each)", "2-3", "see dataset")]
     for a, n, c in rows:
         pg.ax.text(LM, pg.y, a, fontfamily=BF, fontsize=9.3, fontweight="bold", color=NAVY, va="top")
@@ -151,7 +151,7 @@ with PdfPages(OUT + "/greek_deeptech_analysis.pdf") as pdf:
     pg.p("New fund capacity: Metavallon's EUR 5M Brain Gain fund (Jan 2026), Kos Biotechnology Partners' USD 123M life-sciences fund (June 2026, single source), "
          "Big Pi's EUR 130M growth fund first close, and Marathon's EUR 75M latest fund.")
     pg.h("Limits of this work")
-    for t in ["6 rows are on Hold (Koios Care, PiDust, QUBITECH, PolyModels Hub, NOFire AI, SquareDev); 15 are excluded; some Greek links and amounts are still UNVERIFIED in the CSV. Aggregators were used for some rounds and are labelled.",
+    for t in ["2 rows are on Hold (PiDust, QUBITECH); 17 are excluded; some Greek links and amounts are still UNVERIFIED in the CSV. Aggregators were used for some rounds and are labelled.",
               "Funding currencies are kept as reported. Some figures and founding years differ between sources; the notes column records each conflict.",
               "EU-Startups and the Genesis portfolio were read in a browser. Sifted's 2022 deeptech list is paywalled and unreadable, and Tracxn and the full Big Pi and Marathon portfolio pages could not be read, so companies only on those lists may be missing."]:
         pg.p(t, bullet="-", indent=0.2, size=9.2)
@@ -180,7 +180,7 @@ with PdfPages(OUT + "/greek_deeptech_thesis_2027.pdf") as pdf:
     pg.p("Evidence: Delian Alliance Industries (USD 14M Series A, July 2025, Air Street and Marathon); Mind The Hack (EUR 2.8M seed, Oct 2025); five drone makers with no disclosed venture round (EFA Group invests in two); EUR 350M Hellas-Space 2.0 as a sign of public demand. "
          "The opening is component and software suppliers to those drone makers, and a second Delian-type company. Risk: long procurement cycles (my assumption, not in the dataset).", indent=0.2, size=9.3)
     pg.p("3. Computational health and biotech tooling.", size=10.2, gap=0.03)
-    pg.p("Evidence: Health & Biotech is the second-largest box (12 names; Robotics has 13): ORamaVR (USD 4.5M, Jan 2026), Intelligencia, Causaly, Brainomix, Anacalypsis (first Greek VC investment in homegrown drug discovery per Metavallon). "
+    pg.p("Evidence: Health & Biotech is level with Robotics as the largest box (13 names each): ORamaVR (USD 4.5M, Jan 2026), Intelligencia, Causaly, Brainomix, Anacalypsis (first Greek VC investment in homegrown drug discovery per Metavallon). "
          "New local capital (Kos, USD 123M, reported June 2026) should lift Series A options. Risk: wet-lab biotech is capital-heavy; I would favor software and instruments over therapeutics at this stage.", indent=0.2, size=9.3)
     pg.h("Where I would not rush")
     pg.p("Quantum: the dataset has no verified venture-backed Greek company. I would track university spinouts through Metavallon's Brain Gain fund and revisit, rather than force a thesis.", bullet="-", indent=0.2, size=9.3)
@@ -188,7 +188,7 @@ with PdfPages(OUT + "/greek_deeptech_thesis_2027.pdf") as pdf:
     pg.h("What I would check next")
     for t in ["Confirm whether Axelera AI has any Greek team beyond its CTO and remote hires: if so, semiconductors is the strongest talent story; if not, the box stays thin.",
               "Find the Series A and B investors who actually follow Greek seed rounds (Air Street, Molten, 8VC appear) and map their criteria.",
-              "Phase 2 tracker: hiring, funding news and GitHub activity for the 61 mapped names, starting with the robotics and defense groups."]:
+              "Phase 2 tracker: hiring, funding news and GitHub activity for the 63 mapped names, starting with the robotics and defense groups."]:
         pg.p(t, bullet="-", indent=0.2, size=9.3)
     pg.footer(1, 1)
     pg.save()

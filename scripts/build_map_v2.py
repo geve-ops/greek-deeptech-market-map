@@ -40,12 +40,12 @@ STRUCT = [
         ("Chips, sensing & hardware", ["Axelera AI", "Think Silicon", "Circuits Integrated Hellas", "SolidWatts", "Navenio"]),
     ]),
     ("AI & Machine Learning", [
-        ("Enterprise & applied AI", ["Moveo.AI", "Keragon", "Intryc", "Pallma AI", "Satori Analytics", "Seervision", "Intelistyle"]),
+        ("Enterprise & applied AI", ["Moveo.AI", "Keragon", "Intryc", "Pallma AI", "Satori Analytics", "Seervision", "Intelistyle", "SquareDev"]),
         ("Data & developer infrastructure", ["TileDB (rebranded Tile.ai)", "Bitloops", "Proxy Foods AI"]),
     ]),
     ("Health & Biotech", [
         ("AI drug discovery & diagnostics", ["Intelligencia", "Achira AI", "Causaly", "Purposeful", "Brainomix", "Anacalypsis Therapeutics"]),
-        ("Medtech & digital health", ["ORamaVR", "Corsmed", "Anodyne Nanotech", "Feel Therapeutics", "Bioemtech", "Pleioflow"]),
+        ("Medtech & digital health", ["ORamaVR", "Corsmed", "Anodyne Nanotech", "Feel Therapeutics", "Bioemtech", "Pleioflow", "Koios Care"]),
     ]),
     ("Space & Defense", [
         ("Space", ["Prisma Electronics", "Open Cosmos (Open Cosmos Aegean)", "Attisat"]),

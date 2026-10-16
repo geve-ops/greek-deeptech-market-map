@@ -195,5 +195,17 @@
  "Velos Rotors": {
   "file": "velos-rotors__0_logo-img.png",
   "mode": "wide"
+ },
+ "Koios Care": {
+  "file": "koios-care__0_logo-img.png",
+  "mode": "wide"
+ },
+ "MarineTraffic": {
+  "file": "marinetraffic__0_icon.png",
+  "mode": "icon"
+ },
+ "SquareDev": {
+  "file": "squaredev__0_icon.png",
+  "mode": "icon"
  }
 }

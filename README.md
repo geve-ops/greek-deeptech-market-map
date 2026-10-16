@@ -10,7 +10,7 @@ Author: Gerald Velas. Data as of 16 October 2026.
 
 | Deliverable | File |
 |---|---|
-| Research dataset (82 companies screened, 61 mapped) | [data/greek_deeptech_dataset.csv](data/greek_deeptech_dataset.csv) |
+| Research dataset (82 companies screened, 63 mapped) | [data/greek_deeptech_dataset.csv](data/greek_deeptech_dataset.csv) |
 | Market map with logos (PNG, PDF) | [map/greek_deeptech_market_map.png](map/greek_deeptech_market_map.png), [PDF](map/greek_deeptech_market_map.pdf) |
 | Market map, text names only (PNG, PDF) | [map/greek_deeptech_market_map_text_only.png](map/greek_deeptech_market_map_text_only.png), [PDF](map/greek_deeptech_market_map_text_only.pdf) |
 | Analysis (3 pages) | [reports/greek_deeptech_analysis.pdf](reports/greek_deeptech_analysis.pdf) |
@@ -39,7 +39,7 @@ One row per company. Columns:
 - Amounts keep the currency of the source. Where sources disagree, the `notes` and `verification_status` columns say so.
 - `github_org` and `linkedin_url` are empty on purpose, reserved for the deal-flow tracker (phase 2).
 
-Current counts: 30 Include, 31 Borderline, 6 Hold, 15 Exclude.
+Current counts: 31 Include, 32 Borderline, 2 Hold, 17 Exclude.
 
 ## Method
 

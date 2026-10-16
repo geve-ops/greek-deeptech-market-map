@@ -660,6 +660,35 @@ add("SquareDev", "AI & Machine Learning", "Enterprise AI assistants", "AI assist
     "https://athexgroup.gr/sites/default/files/hermes/2025-03/f4c3d366-7604-4ae4-94cb-b10ec7440ba2/826_2030_2025_Greek_1.pdf | https://athenstechcircle.beehiiv.com/p/greek-startups-vcs-funding-report-from-jan-jun-2025-9",
     "Hold", "Seed listed in Athens Tech Circle report; amount, investors and ownership NOT FOUND", "Filing is from a listed Greek company; relationship not established.")
 
+
+# ---------------- Fifth research pass ----------------
+upd("Koios Care", map_status="Borderline", website="https://www.koios.care/",
+    what_they_do="Parkiwatch: Class IIa medical-device software that turns smartwatch movement into kinematic measures for Parkinson's care",
+    hq_greek_link="Antwerp, Belgium; Greek lead investor (Evercurious VC) and HeBAN angels; team page lists CEO Konstantinos Kyritsis and CTO Dimitris Iakovakis (nationality not stated)",
+    verification_status="Round and company verified on its own site; Greek link rests on investors, not on a stated nationality",
+    source_link="https://www.koios.care/ | https://www.koios.care/about | https://siliconcanals.com/koios-care-lands-e1m-in-funding/",
+    notes="Backed by imec.istart and VLAIO per the site. Greek names on the team are not treated as proof of nationality.")
+upd("SquareDev", map_status="Borderline", website="https://squaredev.io/", founded="2018 (Built In)",
+    hq_greek_link="Majority owned by Greek group Quality & Reliability (QnR) since 2025; Athens project roles; CB Insights lists Brussels",
+    stage="Majority stake acquired by QnR", last_round_amount="EUR 1M investment (Athens Tech Circle); USD 1.18M for a majority stake (CB Insights)",
+    last_round_date="2025-03", investors="Quality & Reliability S.A. (QnR)",
+    verification_status="Ownership by a Greek group reported by two sources; founders not named",
+    source_link="https://athenstechcircle.beehiiv.com/p/growing-faster-together-collaboration-the-key-to-business-success | https://www.cbinsights.com/company/squaredev | https://builtindublin.ie/company/squaredev",
+    notes="Appears as SquareDev BV in an Athens Exchange filing. About 19 staff per Built In.")
+upd("NOFire AI", map_status="Exclude", verification_status="Round verified; US-listed devops software with no Greek HQ found",
+    notes="Team names look Greek but nationality is not stated and the site gives no location. DevOps software, not deep tech.")
+upd("PolyModels Hub", map_status="Exclude", verification_status="Round verified; Greek link is the investor only",
+    notes="London company. One outlet mentions a Greek co-founder, which is not confirmed. Site unreachable.")
+upd("Code BGP", stage="Exited (acquired by Cisco, ThousandEyes)", last_round_amount="Acquisition, terms undisclosed", last_round_date="UNVERIFIED (Cisco ThousandEyes post undated in the page text)",
+    investors="Acquirer: Cisco. Earlier: Marathon Venture Capital", map_status="Include",
+    verification_status="Acquisition verified by Cisco ThousandEyes blog; date UNVERIFIED",
+    source_link="https://www.thousandeyes.com/blog/cisco-announces-acquisition-of-codebgp | https://www.cnn.gr/tech/story/271143/xrimatodotisi-1-2-ekat-eyro-gia-tin-code-bgp",
+    notes="Described by Cisco as a privately held BGP monitoring company based in Greece. codebgp.com now redirects to the Cisco post.")
+upd("Aether Aeronautics", website=U,
+    notes="aether-aero.com belongs to a different company (Aether Aerospace, eVTOL) and is not used. NAMFI suitability certification reported for PNS-1 and NMS-2 targets (Greek-language report). EFA Group partnership.")
+upd("Think Silicon", website="https://think-silicon.com/ (redirects to Applied Materials)")
+upd("Seervision", notes="19 staff per Startupticker at the time. seervision.com now redirects to Q-SYS.")
+
 for i, r in enumerate(R, 1):
     r["company_id"] = "GRDT-%03d" % i
 
