@@ -689,6 +689,31 @@ upd("Aether Aeronautics", website=U,
 upd("Think Silicon", website="https://think-silicon.com/ (redirects to Applied Materials)")
 upd("Seervision", notes="19 staff per Startupticker at the time. seervision.com now redirects to Q-SYS.")
 
+
+# ---------------- Sixth pass: fixes from the source re-check (2026-10-16) ----------------
+upd("Progressive Robotics",
+    source_link="https://www.eu-startups.com/2026/02/from-athens-to-thessaloniki-10-of-the-most-promising-greek-startups-to-keep-an-eye-on-in-2026/ | https://finder.techleap.nl/news/feed/progressive-robotics-raises-1-55m-seed-funding | https://www.vcbacked.co/company/progressive-robotics",
+    verification_status="Verified (EU-Startups page read in a browser: Thessaloniki, founded 2023, EUR 1.55M)")
+upd("Intelligencia",
+    source_link="https://www.mobihealthnews.com/news/emea/greek-ai-startup-intelligencia-scores-eu102m-series-round | https://www.businesswire.com/news/home/20210810005501/en/Intelligencia-Raises-%2412M-to-Reduce-the-Risk-of-Clinical-Research-Improve-RD-Productivity-and-Accelerate-Scientific-Breakthroughs",
+    verification_status="Verified (MobiHealthNews, 2021-08-19, read in a browser; later rounds UNVERIFIED)")
+upd("Purposeful", last_round_date="2023-06-20", stage="Strategic investment by PharOS with share purchase from Metavallon",
+    verification_status="Deal verified (Zepos & Yannopoulos, 2023-06-20, read in a browser); value NOT FOUND",
+    source_link="https://www.zeya.com/news/zepos-yannopoulos-advised-purposeful-strategic-collaboration-pharos | https://ceelegalmatters.com/greece/23608-zepos-yannopoulos-advises-purposeful-on-pharos-partnership")
+upd("TileDB (rebranded Tile.ai)",
+    investors="AlleyCorp (lead); Two Bear Capital; Nexus Venture Partners; Intel Capital; Lockheed Martin Ventures; Amgen Ventures; Verizon Ventures; Big Pi Ventures (listed as a Series B investor by PitchBook)",
+    source_link="https://www.businesswire.com/news/home/20231010796451/en/TileDB-closes-34M-Series-B-to-advance-the-vision-of-the-%E2%80%98modern-database%E2%80%99-as-an-alternative-to-the-%E2%80%98modern-data-stack%E2%80%99 | https://siliconangle.com/2023/10/10/multimodal-database-startup-tiledb-raises-34m-series-b-funding/ | https://therecursive.com/?p=32254 | https://bigpi.vc/",
+    last_round_date="2023-10-10",
+    verification_status="Round verified against the company release (lead and participants); Big Pi's participation from PitchBook")
+upd("Bioemtech",
+    verification_status="Not re-verified: figures come from a 2024 company presentation (PDF) that could not be opened automatically")
+upd("Neurohive", last_round_amount="UNVERIFIED (an aggregator lists USD 160K total; page not machine-readable)",
+    verification_status="Genesis portfolio listing verified; amount UNVERIFIED")
+upd("Pinepeak", last_round_amount="UNVERIFIED (an aggregator lists USD 580K total; not re-confirmed)",
+    verification_status="Genesis portfolio listing and Greek founders (one article) found; amount UNVERIFIED")
+upd("Pleioflow", last_round_amount="UNVERIFIED (PitchBook lists USD 1.74M, undated; not re-confirmed)",
+    verification_status="Greek subsidiary and Genesis portfolio listing verified; amount UNVERIFIED")
+
 for i, r in enumerate(R, 1):
     r["company_id"] = "GRDT-%03d" % i
 
