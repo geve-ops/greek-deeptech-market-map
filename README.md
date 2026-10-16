@@ -10,7 +10,7 @@ Author: Gerald Velas. Data as of 16 October 2026.
 
 | Deliverable | File |
 |---|---|
-| Research dataset (63 companies screened) | [data/greek_deeptech_dataset.csv](data/greek_deeptech_dataset.csv) |
+| Research dataset (82 companies screened, 61 mapped) | [data/greek_deeptech_dataset.csv](data/greek_deeptech_dataset.csv) |
 | Market map with logos (PNG, PDF) | [map/greek_deeptech_market_map.png](map/greek_deeptech_market_map.png), [PDF](map/greek_deeptech_market_map.pdf) |
 | Market map, text names only (PNG, PDF) | [map/greek_deeptech_market_map_text_only.png](map/greek_deeptech_market_map_text_only.png), [PDF](map/greek_deeptech_market_map_text_only.pdf) |
 | Analysis (3 pages) | [reports/greek_deeptech_analysis.pdf](reports/greek_deeptech_analysis.pdf) |
@@ -39,18 +39,18 @@ One row per company. Columns:
 - Amounts keep the currency of the source. Where sources disagree, the `notes` and `verification_status` columns say so.
 - `github_org` and `linkedin_url` are empty on purpose, reserved for the deal-flow tracker (phase 2).
 
-Current counts: 26 Include, 23 Borderline, 6 Hold, 8 Exclude.
+Current counts: 30 Include, 31 Borderline, 6 Hold, 15 Exclude.
 
 ## Method
 
 1. Verified the nine starting companies one by one (website, news, funding, Greek link).
-2. Swept investor portfolios and news lists: Big Pi Ventures, Marathon VC, Metavallon VC, Evercurious VC, Genesis Ventures, The Recursive, Athens Tech Circle, Startupper.gr, EU-Startups, Elevate Greece registry, company sites, and aggregators (CB Insights, Seedtable, Caplight) where nothing better existed.
-3. Second pass on companies with a missing Greek link or source.
+2. Swept investor portfolios and news lists: Big Pi Ventures, Marathon VC, Metavallon VC, Evercurious VC, Genesis Ventures (its portfolio page), The Recursive, Athens Tech Circle, EU-Startups (read in a browser), Elevate Greece registry, company sites, and aggregators (CB Insights, Seedtable, Caplight) where nothing better existed.
+3. Repeated passes on companies with a missing Greek link or source, until each was resolved or documented as unresolved.
 
 Limits:
 
 - The sample was seeded from investor portfolios, so investor counts in the analysis reflect overlap with those portfolios, not market share.
-- Some sources (Sifted, EU-Startups, Tracxn, several portfolio pages) could not be read automatically.
+- Sifted's 2022 deeptech list is paywalled and unreadable, and Tracxn and the full Big Pi and Marathon portfolio pages could not be read, so companies that appear only there may be missing.
 - Quantum has no verified venture-backed Greek company, and that is a finding, not a gap in effort.
 
 ## Map design
@@ -66,7 +66,7 @@ Requires Python 3.12 with `matplotlib`, `Pillow` and `pymupdf`.
 ```bash
 python scripts/build_dataset.py data/greek_deeptech_dataset.csv
 python scripts/build_map_v2.py data/greek_deeptech_dataset.csv map/greek_deeptech_market_map
-python scripts/build_map.py data/greek_deeptech_dataset.csv map/greek_deeptech_market_map_text_only
+python scripts/build_map_v2.py data/greek_deeptech_dataset.csv map/greek_deeptech_market_map_text_only text
 python scripts/build_reports.py reports
 ```
 

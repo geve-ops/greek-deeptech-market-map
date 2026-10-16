@@ -137,9 +137,58 @@
   ]
  },
  "Velos Rotors": {
-  "status": "site not found",
-  "tried": [
-   "velosrotors.com"
+  "status": "ok",
+  "site": "https://velos-rotors.com/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://velos-rotors.com/wp-content/uploads/2025/03/velos-rotors-Logo-Copyright-2-qyd2vbw88d9pjk0s9vmosfzymeshrjhfvilxt32apw.png",
+    "kind": "logo-img",
+    "bytes": 15449,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.webp",
+    "url": "https://velos-rotors.com/wp-content/uploads/2025/05/slider-04-logo.webp",
+    "kind": "logo-img",
+    "bytes": 18492,
+    "type": "image/webp"
+   },
+   {
+    "file": "2_logo-img.webp",
+    "url": "https://velos-rotors.com/wp-content/uploads/2025/09/Aeromon-logo.webp",
+    "kind": "logo-img",
+    "bytes": 3394,
+    "type": "image/webp"
+   },
+   {
+    "file": "3_logo-img.webp",
+    "url": "https://velos-rotors.com/wp-content/uploads/2025/09/Korea-Coast-Guard-logo.webp",
+    "kind": "logo-img",
+    "bytes": 10486,
+    "type": "image/webp"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://velos-rotors.com/wp-content/uploads/2025/03/cropped-velos-rotors-fav-icon-180x180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 14438,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://velos-rotors.com/wp-content/uploads/2025/03/cropped-velos-rotors-fav-icon-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 1716,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://velos-rotors.com/wp-content/uploads/2025/03/cropped-velos-rotors-fav-icon-192x192.png",
+    "kind": "icon:icon",
+    "bytes": 15685,
+    "type": "image/png"
+   }
   ]
  },
  "Robenso": {
@@ -1095,8 +1144,7 @@
  "Better Origin": {
   "status": "site not found",
   "tried": [
-   "betterorigin.com",
-   "betterorigin.co"
+   "betterorigin.com"
   ]
  },
  "Centaur Analytics": {
@@ -1921,6 +1969,343 @@
     "kind": "icon:og",
     "bytes": 39364,
     "type": "image/webp"
+   }
+  ]
+ },
+ "Terra Robotics": {
+  "status": "site not found",
+  "tried": [
+   "terra-robotics.com",
+   "terrarobotics.gr",
+   "terra-robotics.gr"
+  ]
+ },
+ "Neurohive": {
+  "status": "ok",
+  "site": "https://neurohive.eu/",
+  "files": [
+   {
+    "file": "0_logo-img.webp",
+    "url": "https://neurohive.eu/assets/optimized/k31UPRRvan-352.webp",
+    "kind": "logo-img",
+    "bytes": 6742,
+    "type": "image/webp"
+   },
+   {
+    "file": "1_logo-img.webp",
+    "url": "https://neurohive.eu/assets/logos/digital-farmer-icon.webp",
+    "kind": "logo-img",
+    "bytes": 8566,
+    "type": "image/webp"
+   },
+   {
+    "file": "2_logo-img.webp",
+    "url": "https://neurohive.eu/assets/logos/herd-book-logo.webp",
+    "kind": "logo-img",
+    "bytes": 9426,
+    "type": "image/webp"
+   },
+   {
+    "file": "3_logo-img.webp",
+    "url": "https://neurohive.eu/assets/logos/digital-farmer-icon.webp",
+    "kind": "logo-img",
+    "bytes": 8566,
+    "type": "image/webp"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://neurohive.eu/assets/favicon/apple-touch-icon.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 11173,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.ico",
+    "url": "https://neurohive.eu/favicon.ico",
+    "kind": "icon:icon",
+    "bytes": 3638,
+    "type": "image/x-icon"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://neurohive.eu/assets/favicon/favicon-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 1440,
+    "type": "image/png"
+   }
+  ]
+ },
+ "PlugSecure": {
+  "status": "ok",
+  "site": "https://plugsecure.com/",
+  "files": [
+   {
+    "file": "0_icon.png",
+    "url": "https://plugsecure.com/favicon.png?v=5",
+    "kind": "icon:icon",
+    "bytes": 15948,
+    "type": "image/png"
+   },
+   {
+    "file": "1_icon.ico",
+    "url": "https://plugsecure.com/favicon.ico?v=5",
+    "kind": "icon:shortcut icon",
+    "bytes": 15948,
+    "type": "image/vnd.microsoft.icon"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://plugsecure.com/og-image.png",
+    "kind": "icon:og",
+    "bytes": 238647,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Pinepeak": {
+  "status": "site not found",
+  "tried": [
+   "pinepeak.co",
+   "pinepeak.io",
+   "pinepeak.com",
+   "pinepeak.earth"
+  ]
+ },
+ "Mind The Hack": {
+  "status": "ok",
+  "site": "https://mindthehack.ai/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://mindthehack.ai/logo.svg",
+    "kind": "logo-img",
+    "bytes": 5385,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://mindthehack.ai/logo.svg",
+    "kind": "logo-img",
+    "bytes": 5385,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://mindthehack.ai/logo.svg",
+    "kind": "logo-img",
+    "bytes": 5385,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://mindthehack.ai/logo.svg",
+    "kind": "logo-img",
+    "bytes": 5385,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://mindthehack.ai/apple-touch-icon.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 6770,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.svg",
+    "url": "https://mindthehack.ai/favicon.svg",
+    "kind": "icon:icon",
+    "bytes": 489,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://mindthehack.ai/favicon-32.png",
+    "kind": "icon:icon",
+    "bytes": 624,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Hoplon AI": {
+  "status": "ok",
+  "site": "https://hoplonai.com/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://hoplonai.com/wp-content/uploads/2026/05/HOPLON-LOGO-2-Photoroom-e1781609745931.png",
+    "kind": "logo-img",
+    "bytes": 5362,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://hoplonai.com/wp-content/uploads/2026/06/5-4.png",
+    "kind": "logo-img",
+    "bytes": 6952,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://hoplonai.com/wp-content/uploads/2026/07/1.png",
+    "kind": "logo-img",
+    "bytes": 3888,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://hoplonai.com/wp-content/uploads/2026/07/2.png",
+    "kind": "logo-img",
+    "bytes": 6228,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://hoplonai.com/wp-content/uploads/2026/06/cropped-favicon_hoplon_ai_com_64x64-180x180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 4471,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://hoplonai.com/wp-content/uploads/2026/06/cropped-favicon_hoplon_ai_com_64x64-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 467,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://hoplonai.com/wp-content/uploads/2026/06/cropped-favicon_hoplon_ai_com_64x64-192x192.png",
+    "kind": "icon:icon",
+    "bytes": 4991,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Satways": {
+  "status": "ok",
+  "site": "https://www.satways.net/",
+  "files": [
+   {
+    "file": "0_logo-img.gif",
+    "url": "https://www.satways.net/images/logo.gif",
+    "kind": "logo-img",
+    "bytes": 26903,
+    "type": "image/gif"
+   },
+   {
+    "file": "1_logo-img.gif",
+    "url": "https://www.satways.net/images/logo.gif",
+    "kind": "logo-img",
+    "bytes": 26903,
+    "type": "image/gif"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://www.satways.net/images/ico/favicon.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 3220,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Attisat": {
+  "status": "site not found",
+  "tried": [
+   "attisat.gr",
+   "attisat.com"
+  ]
+ },
+ "Seervision": {
+  "status": "site not found",
+  "tried": [
+   "seervision.com"
+  ]
+ },
+ "Intelistyle": {
+  "status": "ok",
+  "site": "https://intelistyle.com/",
+  "files": [
+   {
+    "file": "4_icon.png",
+    "url": "https://intelistyle.com/wp-content/uploads/fbrfg/apple-touch-icon.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 2117,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.svg",
+    "url": "https://intelistyle.com/wp-content/uploads/fbrfg/safari-pinned-tab.svg",
+    "kind": "icon:mask-icon",
+    "bytes": 1803,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://intelistyle.com/wp-content/uploads/fbrfg/favicon-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 764,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Pleioflow": {
+  "status": "ok",
+  "site": "https://pleioflow.com/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://pleioflow.com/wp-content/uploads/2021/04/logo-final.png",
+    "kind": "logo-img",
+    "bytes": 97477,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://pleioflow.com/wp-content/uploads/2021/01/PLEIOFLOW-logo-cmyk-transparent.png",
+    "kind": "logo-img",
+    "bytes": 6532,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://pleioflow.com/wp-content/uploads/2021/02/favicon-flow.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 10469,
+    "type": "image/png"
+   }
+  ]
+ },
+ "ClearDrop": {
+  "status": "ok",
+  "site": "https://cleardrop.tech/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://cleardrop.tech/wp-content/uploads/2025/02/ClearDrop_Logo-removebg-preview.png",
+    "kind": "logo-img",
+    "bytes": 87778,
+    "type": "image/png"
+   },
+   {
+    "file": "1_icon.jpg",
+    "url": "https://cleardrop.tech/wp-content/uploads/2025/03/cropped-favicon-180x180.jpg",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 3265,
+    "type": "image/jpeg"
+   },
+   {
+    "file": "2_icon.jpg",
+    "url": "https://cleardrop.tech/wp-content/uploads/2025/03/cropped-favicon-32x32.jpg",
+    "kind": "icon:icon",
+    "bytes": 1464,
+    "type": "image/jpeg"
+   },
+   {
+    "file": "3_icon.jpg",
+    "url": "https://cleardrop.tech/wp-content/uploads/2025/03/cropped-favicon-192x192.jpg",
+    "kind": "icon:icon",
+    "bytes": 3388,
+    "type": "image/jpeg"
    }
   ]
  }

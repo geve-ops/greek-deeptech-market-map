@@ -1,5 +1,5 @@
 """Clean market map with logos and company names underneath.
-Run: python scripts/build_map_v2.py <csv> <out_without_ext>
+Run: python scripts/build_map_v2.py <csv> <out_without_ext> [text]   (add "text" for the names-only version)
 
 Reads logos/choices.json: {company: {"file": "<prepared png in logos/prep>", "mode": "wide|icon", "dark_bg": false}}
 Companies without a chosen logo are shown as a bold text name.
@@ -27,51 +27,52 @@ BG, PURPLE, BLUE, NAVY, GREY, LINE = "#faf8f3", "#7a5cc4", "#4aa3f0", "#273B7B",
 
 SHORT = {"TileDB (rebranded Tile.ai)": "TileDB (Tile.ai)", "Open Cosmos (Open Cosmos Aegean)": "Open Cosmos",
          "Core Innovation and Technology": "Core Innovation", "Circuits Integrated Hellas": "Circuits Integrated",
-         "Anacalypsis Therapeutics": "Anacalypsis", "Delian Alliance Industries": "Delian Alliance",
+         "Anacalypsis Therapeutics": "Anacalypsis", "Mind The Hack": "Mind The Hack", "Delian Alliance Industries": "Delian Alliance",
          "DeepSea Technologies": "DeepSea", "Sotiria Technology": "Sotiria"}
 
 STRUCT = [
     ("Robotics & Drones", [
         ("Physical AI & robot components", ["Acumino", "Progressive Robotics", "Bota Systems", "Gizelis Robotics"]),
-        ("Inspection & agri robotics", ["Perceptual Robotics", "Augmenta", "Robenso"]),
+        ("Inspection & agri robotics", ["Perceptual Robotics", "Augmenta", "Robenso", "Terra Robotics"]),
         ("Drones & unmanned systems", ["Velos Rotors", "Altus LSA", "SAS Technology", "Aether Aeronautics", "Ucandrone"]),
     ]),
     ("Semiconductors & Hardware", [
         ("Chips, sensing & hardware", ["Axelera AI", "Think Silicon", "Circuits Integrated Hellas", "SolidWatts", "Navenio"]),
     ]),
     ("AI & Machine Learning", [
-        ("Enterprise & applied AI", ["Moveo.AI", "Keragon", "Intryc", "Pallma AI", "Satori Analytics"]),
+        ("Enterprise & applied AI", ["Moveo.AI", "Keragon", "Intryc", "Pallma AI", "Satori Analytics", "Seervision", "Intelistyle"]),
         ("Data & developer infrastructure", ["TileDB (rebranded Tile.ai)", "Bitloops", "Proxy Foods AI"]),
     ]),
     ("Health & Biotech", [
         ("AI drug discovery & diagnostics", ["Intelligencia", "Achira AI", "Causaly", "Purposeful", "Brainomix", "Anacalypsis Therapeutics"]),
-        ("Medtech & digital health", ["ORamaVR", "Corsmed", "Anodyne Nanotech", "Feel Therapeutics", "Bioemtech"]),
+        ("Medtech & digital health", ["ORamaVR", "Corsmed", "Anodyne Nanotech", "Feel Therapeutics", "Bioemtech", "Pleioflow"]),
     ]),
     ("Space & Defense", [
-        ("Space", ["Prisma Electronics", "Open Cosmos (Open Cosmos Aegean)"]),
-        ("Defense & security", ["Delian Alliance Industries", "Hack The Box", "Sotiria Technology"]),
+        ("Space", ["Prisma Electronics", "Open Cosmos (Open Cosmos Aegean)", "Attisat"]),
+        ("Defense & security", ["Delian Alliance Industries", "Hack The Box", "Sotiria Technology", "Mind The Hack", "Hoplon AI", "Satways"]),
     ]),
     ("Energy & Climate Tech", [
-        ("Climate data, agri & circular", ["WeatherXM", "Better Origin", "Centaur Analytics"]),
+        ("Climate, energy & agri tech", ["WeatherXM", "Better Origin", "Centaur Analytics", "PlugSecure", "Pinepeak", "ClearDrop", "Neurohive"]),
     ]),
     ("Industrial & Manufacturing Tech", [
         ("Maritime, materials & industrial AI", ["DeepSea Technologies", "MarineTraffic", "iCOMAT", "Core Innovation and Technology", "Code BGP"]),
     ]),
     ("Quantum & Advanced Computing", []),
 ]
-COLUMNS = [[0, 1], [2, 3], [4, 5, 6, 7]]
+COLUMNS = [[0, 7], [1, 2], [3, 6], [4, 5]]
 
 rows = {r["company"]: r for r in csv.DictReader(open(CSV, encoding="utf-8-sig"))}
 mapped = {k for k, r in rows.items() if r["map_status"] in ("Include", "Borderline")}
 placed = {c for _, subs in STRUCT for _, cs in subs for c in cs}
 assert placed == mapped, (placed ^ mapped)
 
+TEXT_ONLY = len(sys.argv) > 3 and sys.argv[3] == "text"
 choices = {}
 cp = os.path.join(ROOT, "logos", "choices.json")
-if os.path.exists(cp):
+if os.path.exists(cp) and not TEXT_ONLY:
     choices = json.load(open(cp))
 
-W, H = 22.0, 16.6
+W, H = 26.0, 15.7
 fig = plt.figure(figsize=(W, H), facecolor=BG)
 ax = fig.add_axes([0, 0, 1, 1])
 ax.set_xlim(0, W); ax.set_ylim(0, H); ax.axis("off")
@@ -83,7 +84,7 @@ ax.text(0.7, H - 1.7, f"{len(mapped)} startups founded in Greece, or by Greeks w
         fontfamily=BF, fontsize=15, color=GREY, va="center")
 
 PAD, GAP = 0.7, 0.6
-colw = (W - 2 * PAD - 2 * GAP) / 3
+colw = (W - 2 * PAD - 3 * GAP) / 4
 CELL_COLS = 3
 cellw = colw / CELL_COLS
 cellh = 1.15
@@ -150,8 +151,9 @@ for ci, cats in enumerate(COLUMNS):
             y -= bh + 0.25
         y -= 0.12
 
-ax.text(PAD, 0.5, "Logos are trademarks of their respective owners and are shown for identification only.  "
-        "Sources and funding data are in the dataset.  Created by Gerald Velas.", fontfamily=BF, fontsize=10, color=GREY, va="center")
+foot = ("Sources and funding data are in the dataset.  Created by Gerald Velas." if TEXT_ONLY else
+        "Logos are trademarks of their respective owners and are shown for identification only.  Sources and funding data are in the dataset.  Created by Gerald Velas.")
+ax.text(PAD, 0.5, foot, fontfamily=BF, fontsize=10, color=GREY, va="center")
 
 fig.savefig(OUT + ".png", dpi=200, facecolor=BG)
 fig.savefig(OUT + ".pdf", facecolor=BG)

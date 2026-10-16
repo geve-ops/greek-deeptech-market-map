@@ -510,6 +510,156 @@ for _n, _w in WEB.items():
             _r["website"] = _w
 upd("Pallma AI", notes="Do not confuse with Palma.ai. pallma.ai now redirects to Verno Labs, whose footer reads Pallma AI Ltd (rebrand not confirmed by a press source).")
 
+
+# ---------------- Fourth research pass: completeness ----------------
+# Corrections to existing rows
+upd("Acumino", investors="Radar Ventures (lead, per company announcement); Schaeffler; Big Pi Ventures; MegaChips; LDV Partners; Bulent Celebi",
+    verification_status="Round verified; lead = Radar Ventures per company post and Caplight; HQ UNVERIFIED",
+    source_link="https://bigpi.vc/ | https://www.trysignalbase.com/news/funding/acumino-secures-117 | https://www.caplight.com/investor/radarventures | https://www.orrick.com/fr-FR/News/2026/07/Acumino-Raises-11-7-Million-Seed-Round-and-Joins-Google-DeepMinds-European-Robotics-Accelerator",
+    notes="One outlet (Logicity) names Metaplanet as lead; it conflicts with the company post and is not used. One of 15 startups in Google DeepMind's first European robotics accelerator (Orrick).")
+upd("Brainomix", investors="Parkwalk Advisors and Boehringer Ingelheim Venture Fund (co-leads); Hostplus via IP Group Hostplus Innovation Fund (new); LifeSci Capital supported",
+    verification_status="Round and investors verified (company release 2025-03-18); Greek office UNVERIFIED",
+    source_link="https://www.brainomix.com/news/brainomix-series-c/ | https://www.auntminnie.com/imaging-informatics/artificial-intelligence/article/15740447/brainomix-completes-18m-funding-round-plans-us-expansion",
+    notes="Series C extended to GBP 18.8M (USD 25.4M) per AuntMinnie. Greek-founded per trade press; CEO Michalis Papadakis.")
+upd("Achira AI", stage="Seed", investors="Dimension (lead); Amplify Partners; Compound; NVentures (Nvidia)", last_round_date="2025-02 to 2025-04 (sources differ)",
+    what_they_do="AI plus physics-based simulation (geometric deep learning, quantum chemistry) for drug discovery",
+    hq_greek_link="HQ UNVERIFIED; Greek co-founder Theofanis Karaletsos (also John Chodera, CEO; Zavain Dar)",
+    verification_status="Round verified; HQ and Greek presence UNVERIFIED",
+    source_link="https://finder.techleap.nl/news/feed/achira-ai-secures-33m-in-funding | https://www.thenationalherald.com/greek-startup-achira-ai-gets-33-million-in-investor-funding/",
+    notes="Round exceeded a USD 15M target. Dealroom dates it Feb 2025; press Apr 2025.")
+upd("Prisma Electronics", stage="Profitable SME; in talks with investment funds", last_round_amount="No external round found (company-reported 2024 revenue above EUR 10M, 145+ staff)",
+    investors="None found; CEO said talks with funds under way",
+    verification_status="Existence verified; no external funding found",
+    source_link="https://www.cnn.gr/oikonomia/epixeiriseis/story/503706/i-prisma-electronics-stelnei-sto-diastima-nanodoryforo-kai-proselkyei-ependytes | https://greekreporter.com/2025/11/06/first-private-greek-nanosatellite-launched/",
+    notes="MICE-1 launch reported for Nov 2025 on Falcon 9; outcome not confirmed here. Revenue and headcount are company-reported via Greek press.")
+upd("Sotiria Technology", stage="Seed (registry label); DIANA grant", last_round_amount="USD 100K grant (DIANA)", last_round_date="2023-11",
+    investors="Angels (unnamed); DIANA (NATO innovation programme) grant", hq_greek_link="Athens, Greece (Elevate Greece registry)",
+    verification_status="Existence and location verified; investors not named",
+    source_link="https://registry.elevategreece.gov.gr/company/sotiria-technology | https://bouncewatch.com/company/sotiria-technology | https://www.powergame.gr/start-ups-digital/1350165/sotiria-technology-vazei-made-in-greece-lyseis-stin-ypothalassia-amyna-tis-evropis/",
+    notes="Managing Director Angelos Tsereklas Zafeirakis. DIANA and MIT Innovators Under 35 claims come from speaker bios and are not independently verified.")
+upd("Core Innovation and Technology", stage="Grant-funded R&D organisation (CORE Innovation Centre is a non-profit subsidiary)",
+    last_round_amount="More than EUR 30M in grants (leader's statement, single source)", investors="Public and EU grants",
+    hq_greek_link="Chalkida (Halkida), Greece", verification_status="Existence verified; funding figure UNVERIFIED",
+    source_link="https://portal.effra.eu/organisation/12520 | https://cordis.europa.eu/project/id/101079180 | https://www.core-innovation.com/",
+    notes="Site core-innovation.com describes itself as the first smart manufacturing hub in Greece; assumed to be the same group.")
+upd("Aether Aeronautics", stage="Strategic investment (EFA Group)", investors="EFA Group (strategic partnership and investment; terms not disclosed)",
+    last_round_amount="Not disclosed", last_round_date=U,
+    source_link="https://www.parapolitika.gr/zoi/article/1111770/stratigiki-sunergasia-tou-omilou-efa-group-me-tin-elliniki-aether-aeronautics-pc-gia-tin-anaptuxi-enaerion-stohon/app/ | https://registry.elevategreece.gov.gr/company/aether-aeronautics-pc")
+upd("Ucandrone", stage="Strategic investment (EFA Group)", investors="EFA Group (strategic partnership through investment; terms not disclosed)",
+    last_round_amount="Not disclosed", last_round_date=U,
+    source_link="https://registry.elevategreece.gov.gr/company/ucandrone-sa/ | https://www.euro2day.gr/en/article/2358851/efa-group-demonstration-of-advanced-defense-techno")
+upd("Altus LSA", stage="Established SME; strategic partner Shield AI (2026)",
+    notes="Signed a strategic agreement with Shield AI (2026) to integrate KMB Hunter and M3NTOR with V-BAT and Hivemind. No shareholder round found; robotics.press lists USD 880K (third-party card, not used).",
+    source_link="https://www.naftemporiki.gr/english/2143605/greek-defence-firm-altus-lsa-us-shield-ai-sign-strategic-drone-partnership/ | https://registry.elevategreece.gov.gr/company/aether-aeronautics-pc")
+upd("ClearDrop", map_status="Borderline", category="Energy & Climate Tech", sub_sector="Self-cleaning solar panels",
+    what_they_do="Vibration-based technology that turns solar panels into self-cleaning devices (acoustic-wave cleaning from a Lille research lab)",
+    hq_greek_link="Greek link: listed by Genesis Ventures (Greek fund) as Deeptech; CEO Nikos Christopoulos; HQ UNVERIFIED",
+    investors="Genesis Ventures (portfolio listing; round not disclosed)",
+    verification_status="Genesis portfolio listing verified; funding and HQ NOT FOUND",
+    source_link="https://www.genesis-ventures.vc/our-portfolio | https://athenstechcircle.beehiiv.com/p/never-marry-your-ideas-or-assumptions-nikos-christopoulos-ceo-cleardrop")
+
+# New companies from this pass
+add("Terra Robotics", "Robotics & Drones", "Agri-robotics (laser weeding)",
+    "TerraWeeder laser weeding robot for ultra-precise, soil-free organic weeding", U,
+    "Thessaloniki, Greece (Elevate Greece registry)", "Seed", "~EUR 1.8M (USD 2.1M)", "2025-09 to 2025-10",
+    "Uni.Fund (lead); Genesis Ventures; Helidoni Group; HeBAN; Argyris Kaninis. Earlier EUR 345K pre-seed (2024, Genesis)", U,
+    "https://finder.techleap.nl/news/feed/terra-robotics-raises-2-1m-for-laser-weeding | https://www.fertilizerdaily.com/20251014-terra-robotics-raises-e1-8-million-to-bring-laser-weeding-technology-to-market/ | https://registry.elevategreece.gov.gr/company/terra-robotics-p-c",
+    "Include", "Verified", "CEO Konstantinos Kandylas. Aggregators list USD 3.1M total seed; EUR 1.8M is the most consistent figure.")
+add("Neurohive", "Energy & Climate Tech", "Agri-tech (livestock sensing)",
+    "Wearable sensors, cloud and AI for monitoring sheep and goat herds", "2023",
+    "Thessaloniki, Greece (PremierAlts listing)", "Pre-seed (inferred from total)", "USD 160K total (aggregator)", U,
+    "Genesis Ventures (portfolio listing; round not disclosed)", U,
+    "https://www.genesis-ventures.vc/our-portfolio | https://www.premieralts.com/companies/neurohive",
+    "Include", "Genesis listing verified; amounts UNVERIFIED (aggregator)", "Selected for the Wageningen Hub per a LinkedIn post (not verified).")
+add("PlugSecure", "Energy & Climate Tech", "Energy infrastructure cybersecurity",
+    "Security-as-a-service for EV charging, solar, battery and wind infrastructure (OT security)", "2024",
+    "Athens, Greece (Elevate Greece registry)", "Pre-seed", "EUR 720K (~USD 780K)", "2025-03 to 2025-04 (sources differ)",
+    "Apeiron VC (lead); Genesis Ventures; Alexander Caravitis", U,
+    "https://nordic9.com/news/plugsecure-in-a-720k-pre-seed-deal-led-by-apeiron-vc-joined-by-genesis-ventures/ | https://registry.elevategreece.gov.gr/company/plugsecure/ | https://www.eu-startups.com/2026/02/from-athens-to-thessaloniki-10-of-the-most-promising-greek-startups-to-keep-an-eye-on-in-2026/",
+    "Include", "Verified; round date and label vary", "CEO Eleftherios Karabatsakis.")
+add("Pinepeak", "Energy & Climate Tech", "Wildfire risk forecasting",
+    "High-resolution wildfire probability forecasts down to individual homes (Cambridge and Imperial College research)", "2023-12",
+    "UK-based; two founders are Greek per The Next Web; HQ UNVERIFIED", "Pre-seed (inferred)", "USD 580K total (aggregator)", U,
+    "Genesis Ventures (portfolio listing; round not disclosed)", U,
+    "https://thenextweb.com/news/pinepeak-wildfire-simulator-predicts-fire-risks | https://www.genesis-ventures.vc/our-portfolio | https://www.premieralts.com/companies/pinepeak",
+    "Borderline", "Greek founders from one article; funding UNVERIFIED", "Genesis lists it as Deeptech.")
+add("Mind The Hack", "Space & Defense", "Cybersecurity (automated pen-testing)",
+    "Automated, attacker-driven security testing platform for enterprises", "2022 or 2023 (sources differ)",
+    "Attica, Greece", "Seed", "EUR 2.8M", "2025-10-07",
+    "Deep Capital Group (lead)", U,
+    "https://startuprise.co.uk/greek-cybersecurity-startup-mind-the-hack-secures-e2-8m-funding/ | https://app.dealroom.co/news/feed/mindthehack-raises-2-8m-for-cybersecurity-innovation | https://www.eu-startups.com/2026/02/from-athens-to-thessaloniki-10-of-the-most-promising-greek-startups-to-keep-an-eye-on-in-2026/",
+    "Include", "Verified", "Founders reported as Stavros Kirykos (CEO) and Giorgos Rakitzi (CTO); spellings vary. Aggregators list USD 3.3M to 4.5M.")
+add("Hoplon AI", "Space & Defense", "Cybersecurity (AI agents)",
+    "Autonomous AI agents acting as a virtual cybersecurity team for SMEs", U,
+    "London-based; Greek co-founder Yannis Kostakis", "Seed", "USD 1M", "2026-01 to 2026-05 (sources differ)",
+    "Haatch (lead per press); Genesis Ventures; angels", U,
+    "https://athenstechcircle.beehiiv.com/p/plugsecure-secures-funding-to-protect-ev-charging-from-cyber-attacks-bdfd | https://www.vcbacked.co/company/hoplonai | https://www.caplight.com/company/hoplonai",
+    "Borderline", "Round verified (aggregators); Greek team presence UNVERIFIED", "Caplight lists Genesis as co-lead; press says Haatch led.")
+add("Satways", "Space & Defense", "Geospatial command and control",
+    "Geospatial command-and-control software for public safety, civil protection and defense", "2006",
+    "Athens, Greece (Neo Irakleio, Attica)", "Private SME", NF, NF, "None found", U,
+    "https://www.datanyze.com/companies/satways/348633223 | https://www.netlaw.bg/en/a/satways-olokliromenes-lyseis-asfaleias-kai-amynas-idiotiki-epicheirisi-parochis-ypiresion-asfaleias-iepya-etaireia-periorismenis-efthynis-greece",
+    "Borderline", "Existence and location verified; funding NOT FOUND", "Named as a Greek partner in the OroraTech wildfire contract. Established firm, shown for context.")
+add("Attisat", "Space & Defense", "Satellite antennas",
+    "Satellite antenna and communications equipment; ESA ARTES partner", U,
+    "Athens, Greece", "Private SME", NF, NF, "None found", U,
+    "https://artes.esa.int/contractors/attisat | https://esa.int/Applications/Connectivity_and_Secure_Communications/Invisible_satellite_dishes_to_preserve_Athens_skyline",
+    "Borderline", "Existence verified; founding year and funding NOT FOUND", "Greek partner in the OroraTech wildfire contract per Tech.eu.")
+add("Seervision", "AI & Machine Learning", "Computer vision (camera automation)",
+    "AI-driven camera automation software (ETH Zurich spin-off)", U,
+    "Zurich with offices in Athens; CEO Nikos Kariotoglou", "Exited (acquired by Q-SYS)", "Undisclosed", "2023-06",
+    "Acquirer: Q-SYS (QSC). Metavallon VC listed as an investor by Tracxn", U,
+    "https://www.businesswire.com/news/home/20230612005152/en | https://startupticker.ch/en/news/california-based-company-acquires-seervision",
+    "Borderline", "Acquisition announced (closing not confirmed); Metavallon stake single-sourced", "19 staff per Startupticker at the time.")
+add("Intelistyle", "AI & Machine Learning", "AI fashion styling",
+    "AI-based outfit recommendation engine for fashion retailers", U,
+    "London; Greek registry lists Maroussi, Athens entity", "Seed", "~EUR 534K (USD 600K)", "2018-11",
+    "Metavallon VC (lead); Techstars Montreal AI Accelerator; Innovate UK; Plug and Play", U,
+    "https://www.eu-startups.com/2018/11/intelistyle-raises-seed-round/ | https://registry.elevategreece.gov.gr/company/intelistyle-ltd",
+    "Borderline", "Round verified (2018, stale); founders' nationality NOT FOUND", "Applied AI in retail; deep tech status debatable.")
+add("Pleioflow", "Health & Biotech", "Cardiovascular medical devices",
+    "Percutaneous flow-assist devices for cardiogenic shock and kidney protection", U,
+    "UK with Greek subsidiary Pleioflow Hellas (Nea Kifissia)", "UNVERIFIED", "USD 1.74M (PitchBook, undated)", U,
+    "Genesis Ventures (portfolio listing); Olympic Investments (PitchBook)", U,
+    "https://www.genesis-ventures.vc/our-portfolio | https://registry.elevategreece.gov.gr/company/pleioflow-hellas-sa/ | https://pitchbook.com/profiles/company/538044-67",
+    "Borderline", "Greek subsidiary verified; funding from an aggregator", "Registry figures (EUR 4.5M, USD 30M valuation) are self-reported and not used.")
+
+# Newly checked and excluded or held
+add("Krotos", "Industrial & Manufacturing Tech", "Audio software", "Sound-effects software for film, TV and games", "2013",
+    "Edinburgh, Scotland; Greek founder Orfeas Mpoteas", "Seed", "Seven figures (amount undisclosed)", "2022-02",
+    "Metavallon VC (lead); Old College Capital", U,
+    "https://en.wikipedia.org/wiki/Krotos_Ltd | https://www.powergame.gr/start-ups-digital/208118/krotos-i-elliniki-startup-pou-kanei-thoryvo-sto-choligount/",
+    "Exclude", "Verified; not deep tech", "Creative software.")
+add("Dataphoria", "AI & Machine Learning", "ESG analytics SaaS", "ESG analytics platform", U,
+    "Athens, Greece", "Seed", "EUR 335K (USD 390K)", "2026-09-18", "Investing for Purpose (lead); angels", U,
+    "https://app.fundz.net/fundings/dataphoria-funding-round-dc8466 | https://www.cbinsights.com/company/dataphoria",
+    "Exclude", "Round verified (aggregators); not deep tech", "SaaS analytics.")
+add("Mobito", "AI & Machine Learning", "Mobility data marketplace", "Aggregated connected-vehicle data platform", U,
+    "Brussels, Belgium; CEO George Cambanis", "Seed", "EUR 1M", "2025-06",
+    "Loggerhead Ventures; Sporos Platform; Moro Global; imec.istart", U,
+    "https://athenstechcircle.beehiiv.com/p/mobito-raises-1m-to-scale-its-tech-infrastructure-and-expand-across-europe-58c7 | https://finder.techleap.nl/news/feed/mobito-secures-1m-for-european-growth",
+    "Exclude", "Round verified; not deep tech", "Data marketplace.")
+add("NeuroVirt", "Health & Biotech", "VR rehabilitation", "XR-based movement rehabilitation for stroke", U,
+    "London; founder Eve Gregoriou is Cypriot per Cypriot press", "Seed", "USD 1.5M (aggregator)", U, "Genesis Ventures; Conception X; Innovate UK", U,
+    "https://www.trysignalbase.com/news/funding/neurovirt-secures-15m-in-seed-funding-to-revolutionize-vr-powered-rehabilitation-care | https://en.politis.com.cy/portraits/portraits-personae/950839/rewiring-recovery-dr-eve-gregorious-new-era-of-stroke-rehabilitation",
+    "Exclude", "Greek link NOT FOUND (Cypriot founder)", "The Recursive calls it Greek-founded; not confirmed.")
+add("Electryone AI", "Energy & Climate Tech", "Energy AI", "AI platform for energy suppliers and storage", "2023",
+    "Cyprus-linked; founders described as Cypriot", "Seed", "EUR 400K (33East)", "2025-01", "33East Venture Capital; Genesis Ventures; others", U,
+    "https://fastforward.com.cy/tech/how-local-funding-gave-electryone-ai-reason-return | https://finder.techleap.nl/news/feed/electryone-ai-secures-400k-funding",
+    "Exclude", "Not Greek (Cypriot founders)", "Genesis is a minor investor.")
+add("Xatoms", "Quantum & Advanced Computing", "AI and quantum chemistry for materials", "Light-activated materials for water purification", "2024",
+    "Toronto, Canada; Slovak founders", "Pre-seed", "USD 3M", "2025-06", "Quantacet (lead); Genesis Ventures; BDC Thrive Lab", U,
+    "https://thequantuminsider.com/2025/06/19/xatoms-secures-3-million-in-pre-seed-funding-to-combine-ai-and-quantum-chemistry-for-water-purification-technology/",
+    "Exclude", "Not Greek", "Greek fund is a minor investor; kept only as a checked candidate for the empty Quantum box.")
+add("Averywell", "Health & Biotech", "Liquid biopsy", "miRNA-based liquid biopsy for early lung cancer detection", U,
+    "Manchester, UK; no Greek link found", "Pre-seed", "Not disclosed", "2024-04", "Genesis Ventures (pre-seed); Barclays Eagle Labs", U,
+    "https://www.caplight.com/company/averywell | https://www.genesis-ventures.vc/our-portfolio",
+    "Exclude", "Greek link NOT FOUND", "Greek fund is the only link.")
+add("SquareDev", "AI & Machine Learning", "Enterprise AI assistants", "AI assistants for internal business search and customer support", U,
+    "Greek link UNVERIFIED (appears in an Athens Exchange filing as SquareDev BV)", "Seed", NF, U, NF, U,
+    "https://athexgroup.gr/sites/default/files/hermes/2025-03/f4c3d366-7604-4ae4-94cb-b10ec7440ba2/826_2030_2025_Greek_1.pdf | https://athenstechcircle.beehiiv.com/p/greek-startups-vcs-funding-report-from-jan-jun-2025-9",
+    "Hold", "Seed listed in Athens Tech Circle report; amount, investors and ownership NOT FOUND", "Filing is from a listed Greek company; relationship not established.")
+
 for i, r in enumerate(R, 1):
     r["company_id"] = "GRDT-%03d" % i
 

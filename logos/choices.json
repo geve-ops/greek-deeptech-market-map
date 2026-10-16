@@ -158,5 +158,42 @@
  "Robenso": {
   "file": "robenso__0_logo-img.png",
   "mode": "wide"
+ },
+ "Neurohive": {
+  "file": "neurohive__0_logo-img.png",
+  "mode": "icon"
+ },
+ "PlugSecure": {
+  "file": "plugsecure__0_icon.png",
+  "mode": "icon"
+ },
+ "Mind The Hack": {
+  "file": "mind-the-hack__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Hoplon AI": {
+  "file": "hoplon-ai__0_logo-img.png",
+  "mode": "wide",
+  "dark_bg": true
+ },
+ "Satways": {
+  "file": "satways__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Intelistyle": {
+  "file": "intelistyle__5_icon.png",
+  "mode": "icon"
+ },
+ "Pleioflow": {
+  "file": "pleioflow__0_logo-img.png",
+  "mode": "wide"
+ },
+ "ClearDrop": {
+  "file": "cleardrop__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Velos Rotors": {
+  "file": "velos-rotors__0_logo-img.png",
+  "mode": "wide"
  }
 }

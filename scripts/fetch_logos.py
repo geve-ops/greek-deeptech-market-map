@@ -62,6 +62,22 @@ C = {
  "iCOMAT": ("icomat", "icomat", ["icomat.co.uk", "icomat.com"]),
  "MarineTraffic": ("marinetraffic", "marinetraffic", ["marinetraffic.com"]),
  "Core Innovation and Technology": ("core-innovation", "core", ["core-innovation.gr", "coreinnovation.gr", "core-innovation.eu"]),
+ "Terra Robotics": ("terra-robotics", "terra", ["terra-robotics.com", "terrarobotics.gr", "terra-robotics.gr"]),
+ "Neurohive": ("neurohive", "neurohive", ["neurohive.eu", "neurohive.gr", "neurohive.io", "neurohive.com"]),
+ "PlugSecure": ("plugsecure", "plugsecure", ["plugsecure.com", "plugsecure.io", "plugsecure.eu"]),
+ "Pinepeak": ("pinepeak", "pinepeak", ["pinepeak.co", "pinepeak.io", "pinepeak.com", "pinepeak.earth"]),
+ "Mind The Hack": ("mind-the-hack", "mind", ["mindthehack.com", "mindthehack.io", "mindthehack.eu"]),
+ "Hoplon AI": ("hoplon-ai", "hoplon", ["hoplon.ai", "hoplonai.com"]),
+ "Satways": ("satways", "satways", ["satways.net", "satways.com"]),
+ "Attisat": ("attisat", "attisat", ["attisat.gr", "attisat.com"]),
+ "Seervision": ("seervision", "seervision", ["seervision.com"]),
+ "Intelistyle": ("intelistyle", "intelistyle", ["intelistyle.com"]),
+ "Pleioflow": ("pleioflow", "pleioflow", ["pleioflow.com"]),
+ "ClearDrop": ("cleardrop", "cleardrop", ["cleardrop.tech", "cleardrop.eu", "cleardrop.io", "cleardrop.gr", "cleardrop.com"]),
+ "Velos Rotors": ("velos-rotors", "velos", ["velosrotors.com", "velos-rotors.com", "velosrotors.gr"]),
+ "Think Silicon": ("think-silicon", "think", ["think-silicon.com"]),
+ "Better Origin": ("better-origin", "better origin", ["betterorigin.com"]),
+ "Delian Alliance Industries": ("delian", "delian", ["delianalliance.com", "delian-alliance.com", "delian.io", "delian.ai", "delianai.com"]),
 }
 
 
