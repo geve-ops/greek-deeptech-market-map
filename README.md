@@ -53,7 +53,7 @@ Limits:
 
 ## Map design
 
-Off-white background, purple `#7a5cc4`, blue `#4aa3f0`, navy `#273B7B`, Red Hat Mono titles (SIL Open Font License, see `fonts/OFL.txt`). The underline under each name shows stage. A `*` marks Borderline companies. Names without a logo are shown as text.
+Off-white background, purple `#7a5cc4`, blue `#4aa3f0`, navy `#273B7B`, Red Hat Mono titles (SIL Open Font License, see `fonts/OFL.txt`). Each company is shown with its logo and plain name underneath; companies without a logo show the name only. Stage and Borderline status are not shown on the map (they are in the dataset and the analysis).
 
 Logos are trademarks of their respective owners and appear for identification only. The logo files are not stored in this repo (`logos/raw` and `logos/prep` are ignored); `logos/manifest.json` records where each file was downloaded from and `logos/choices.json` records which file was used. Use the text-only map if you need a version without logos.
 
