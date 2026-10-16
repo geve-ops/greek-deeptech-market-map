@@ -12,7 +12,6 @@ Author: Gerald Velas. Data as of 16 October 2026.
 |---|---|
 | Research dataset (82 companies screened, 63 mapped) | [data/greek_deeptech_dataset.csv](data/greek_deeptech_dataset.csv) |
 | Market map with logos (PNG, PDF) | [map/greek_deeptech_market_map.png](map/greek_deeptech_market_map.png), [PDF](map/greek_deeptech_market_map.pdf) |
-| Market map, text names only (PNG, PDF) | [map/greek_deeptech_market_map_text_only.png](map/greek_deeptech_market_map_text_only.png), [PDF](map/greek_deeptech_market_map_text_only.pdf) |
 | Analysis (3 pages) | [reports/greek_deeptech_analysis.pdf](reports/greek_deeptech_analysis.pdf) |
 | Thesis: where I would invest in 2027 (1 page) | [reports/greek_deeptech_thesis_2027.pdf](reports/greek_deeptech_thesis_2027.pdf) |
 | Open research items | [data/research_queue.md](data/research_queue.md) |
@@ -61,7 +60,7 @@ Limits:
 
 Off-white background, purple `#7a5cc4`, blue `#4aa3f0`, navy `#273B7B`, Red Hat Mono titles (SIL Open Font License, see `fonts/OFL.txt`). Each company is shown with its logo and plain name underneath; companies without a logo show the name only. Stage and Borderline status are not shown on the map (they are in the dataset and the analysis).
 
-Logos are trademarks of their respective owners and appear for identification only. The logo files are not stored in this repo (`logos/raw` and `logos/prep` are ignored); `logos/manifest.json` records where each file was downloaded from and `logos/choices.json` records which file was used. Use the text-only map if you need a version without logos.
+Logos are trademarks of their respective owners and appear for identification only. The logo files are not stored in this repo (`logos/raw` and `logos/prep` are ignored); `logos/manifest.json` records where each file was downloaded from and `logos/choices.json` records which file was used. A names-only version can be rendered with the `text` option shown below.
 
 ## Rebuild
 
@@ -70,7 +69,8 @@ Requires Python 3.12 with `matplotlib`, `Pillow` and `pymupdf`.
 ```bash
 python scripts/build_dataset.py data/greek_deeptech_dataset.csv
 python scripts/build_map_v2.py data/greek_deeptech_dataset.csv map/greek_deeptech_market_map
-python scripts/build_map_v2.py data/greek_deeptech_dataset.csv map/greek_deeptech_market_map_text_only text
+# optional names-only version:
+python scripts/build_map_v2.py data/greek_deeptech_dataset.csv map/map_text_only text
 python scripts/build_reports.py reports
 ```
 
