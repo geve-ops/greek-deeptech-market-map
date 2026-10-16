@@ -1,0 +1,1892 @@
+{
+ "Acumino": {
+  "status": "ok",
+  "site": "https://acumino.ai/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://acumino.ai/images/acumino-logo.svg",
+    "kind": "logo-img",
+    "bytes": 3708,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_icon.png",
+    "url": "https://acumino.ai/apple-touch-icon.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 2148,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.svg",
+    "url": "https://acumino.ai/favicon.svg",
+    "kind": "icon:icon",
+    "bytes": 909,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_icon.png",
+    "url": "https://acumino.ai/favicon-32.png",
+    "kind": "icon:icon",
+    "bytes": 852,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Perceptual Robotics": {
+  "status": "ok",
+  "site": "https://www.perceptual-robotics.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://www.perceptual-robotics.com/wp-content/uploads/2021/06/PR-logo-white.svg",
+    "kind": "logo-img",
+    "bytes": 9699,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://www.perceptual-robotics.com/wp-content/uploads/2025/04/EDF_Energy_logo.svg",
+    "kind": "logo-img",
+    "bytes": 2274,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://www.perceptual-robotics.com/wp-content/uploads/2025/04/enel_logo.svg",
+    "kind": "logo-img",
+    "bytes": 6752,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://www.perceptual-robotics.com/wp-content/uploads/2025/04/fred-olsen-co-seeklogo_v2.svg",
+    "kind": "logo-img",
+    "bytes": 6985,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://www.perceptual-robotics.com/wp-content/uploads/2021/07/cropped-PR-Favicon-01-180x180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 10129,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://www.perceptual-robotics.com/wp-content/uploads/2021/07/cropped-PR-Favicon-01-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 1395,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://www.perceptual-robotics.com/wp-content/uploads/2021/07/cropped-PR-Favicon-01-192x192.png",
+    "kind": "icon:icon",
+    "bytes": 10856,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Progressive Robotics": {
+  "status": "ok",
+  "site": "https://progressive-robotics.com/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://progressive-robotics.com/wp-content/uploads/2020/06/cropped-Screen-Shot-2020-06-11-at-1.04.10-PM-768x77.png",
+    "kind": "logo-img",
+    "bytes": 24231,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://progressive-robotics.com/wp-content/uploads/2020/07/Osprey_Logo.png",
+    "kind": "logo-img",
+    "bytes": 904488,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://progressive-robotics.com/wp-content/uploads/2020/07/craigslist.png",
+    "kind": "logo-img",
+    "bytes": 9387,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://progressive-robotics.com/wp-content/uploads/2020/07/glassdoor.png",
+    "kind": "logo-img",
+    "bytes": 8494,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://progressive-robotics.com/wp-content/uploads/2020/06/cropped-Screen-Shot-2020-06-11-at-1.04.10-PM-1-180x180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 483,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://progressive-robotics.com/wp-content/uploads/2020/06/cropped-Screen-Shot-2020-06-11-at-1.04.10-PM-1-192x192.png",
+    "kind": "icon:icon",
+    "bytes": 543,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Velos Rotors": {
+  "status": "site not found",
+  "tried": [
+   "velosrotors.com"
+  ]
+ },
+ "Robenso": {
+  "status": "ok",
+  "site": "https://www.robenso.com/",
+  "files": [
+   {
+    "file": "0_icon.png",
+    "url": "https://static.wixstatic.com/media/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 38133,
+    "type": "image/png"
+   },
+   {
+    "file": "1_icon.png",
+    "url": "https://static.wixstatic.com/media/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png",
+    "kind": "icon:icon",
+    "bytes": 41343,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://static.wixstatic.com/media/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/fdcbb4_8b300832d9a145ebb733506a49acea43%7Emv2.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 3328,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Augmenta": {
+  "status": "ok",
+  "site": "https://www.ravenind.com/products/applications-booms/augmenta-field-analyzer",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://www.ravenind.com/assets/images/raven_logo_reversed_transparent.svg?1784665776",
+    "kind": "logo-img",
+    "bytes": 2167,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://www.ravenind.com/assets/images/logo.svg?1784665776",
+    "kind": "logo-img",
+    "bytes": 5104,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://www.ravenind.com/assets/images/logo.svg?1784665776",
+    "kind": "logo-img",
+    "bytes": 5104,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_icon.jpg",
+    "url": "https://cdn.ravenind.com/2022/general-uplods/_1200x630_crop_center-center_82_none/Right-Side-Image-Augmenta-24-b-1920x800.jpg?mtime=1727128935",
+    "kind": "icon:og",
+    "bytes": 91530,
+    "type": "image/jpeg"
+   }
+  ]
+ },
+ "Gizelis Robotics": {
+  "status": "ok",
+  "site": "https://grobotics.eu/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://grobotics.eu/wp-content/uploads/2025/03/grobotics_logo_new_245x80.png",
+    "kind": "logo-img",
+    "bytes": 5269,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://grobotics.eu/wp-content/uploads/2025/03/grobotics_logo_new_245x80.png",
+    "kind": "logo-img",
+    "bytes": 5269,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://grobotics.eu/wp-content/uploads/2025/03/grobotics_logo_new_245x80.png",
+    "kind": "logo-img",
+    "bytes": 5269,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://grobotics.eu/wp-content/uploads/2025/03/grobotics_logo_new_245x80.png",
+    "kind": "logo-img",
+    "bytes": 5269,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://grobotics.eu/wp-content/uploads/2025/03/grobotics_favicon_new_100x100.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 3629,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://grobotics.eu/wp-content/uploads/2025/03/grobotics_favicon_new_100x100.png",
+    "kind": "icon:icon",
+    "bytes": 3629,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://grobotics.eu/wp-content/uploads/2025/03/grobotics_favicon_new_100x100.png",
+    "kind": "icon:icon",
+    "bytes": 3629,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Altus LSA": {
+  "status": "ok",
+  "site": "https://altus-lsa.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://altus-lsa.com/wp-content/uploads/2024/09/altus-logo.svg",
+    "kind": "logo-img",
+    "bytes": 397793,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://altus-lsa.com/wp-content/uploads/2024/09/altus-logo.svg",
+    "kind": "logo-img",
+    "bytes": 397793,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://altus-lsa.com/wp-content/uploads/2024/09/altus-logo.svg",
+    "kind": "logo-img",
+    "bytes": 397793,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://altus-lsa.com/wp-content/uploads/2024/09/altus-logo.svg",
+    "kind": "logo-img",
+    "bytes": 397793,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://altus-lsa.com/wp-content/uploads/2025/05/cropped-altus-logo-512-1-e1647172126948-370x370-1-180x180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 1561,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://altus-lsa.com/wp-content/uploads/2025/05/cropped-altus-logo-512-1-e1647172126948-370x370-1-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 846,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://altus-lsa.com/wp-content/uploads/2025/05/cropped-altus-logo-512-1-e1647172126948-370x370-1-192x192.png",
+    "kind": "icon:icon",
+    "bytes": 1628,
+    "type": "image/png"
+   }
+  ]
+ },
+ "SAS Technology": {
+  "status": "ok",
+  "site": "https://sas-tech.gr/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://sas-tech.gr/logosas.png",
+    "kind": "logo-img",
+    "bytes": 5619,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://sas-tech.gr/images/swlogo.png",
+    "kind": "logo-img",
+    "bytes": 21568,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://sas-tech.gr/images/horizonlogo.png",
+    "kind": "logo-img",
+    "bytes": 20916,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://sas-tech.gr/images/logotr.png",
+    "kind": "logo-img",
+    "bytes": 5297,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://sas-tech.gr/apple-touch-icon.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 2216,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://sas-tech.gr/apple-touch-icon-57x57.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 2216,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://sas-tech.gr/apple-touch-icon-72x72.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 3438,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Aether Aeronautics": {
+  "status": "no logo file",
+  "site": "https://www.aether-aero.com/",
+  "files": []
+ },
+ "Ucandrone": {
+  "status": "ok",
+  "site": "https://ucandrone.com/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://ucandrone.com/wp-content/uploads/2020/10/ucd-logo.png",
+    "kind": "logo-img",
+    "bytes": 4247,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://ucandrone.com/wp-content/uploads/2020/10/ucd-logo@2.png",
+    "kind": "logo-img",
+    "bytes": 19520,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://ucandrone.com/wp-content/uploads/2020/10/ucd-logo.png",
+    "kind": "logo-img",
+    "bytes": 4247,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://ucandrone.com/wp-content/uploads/2020/10/ucd-logo@2.png",
+    "kind": "logo-img",
+    "bytes": 19520,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://hcode.themezaa.com/demo-images/2015/09/apple-touch-icon-57x57.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 1332,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://hcode.themezaa.com/demo-images/2015/09/apple-touch-icon-72x72.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 1112,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://hcode.themezaa.com/demo-images/2015/09/apple-touch-icon-114x114.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 1354,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Bota Systems": {
+  "status": "ok",
+  "site": "https://botasys.com/",
+  "files": [
+   {
+    "file": "0_logo-img.bin",
+    "url": "https://botasys.com/wp-content/uploads/Bota-LogoFull-Black.avif",
+    "kind": "logo-img",
+    "bytes": 3569,
+    "type": "image/avif"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://botasys.com/wp-content/uploads/Meta-Logo-scaled.png",
+    "kind": "logo-img",
+    "bytes": 48660,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://botasys.com/wp-content/uploads/Amazon_logo.svg.png",
+    "kind": "logo-img",
+    "bytes": 31392,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://botasys.com/wp-content/uploads/Google_2015_logo.svg-scaled.png",
+    "kind": "logo-img",
+    "bytes": 119020,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://botasys.com/wp-content/uploads/2025/11/Bota_LogoSquare_Black_centered-1.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 2743,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://botasys.com/wp-content/uploads/2025/11/Bota_LogoSquare_Black_centered-1.png",
+    "kind": "icon:icon",
+    "bytes": 2743,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://botasys.com/wp-content/uploads/2025/11/Bota_LogoSquare_Black_centered-1.png",
+    "kind": "icon:icon",
+    "bytes": 2743,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Moveo.AI": {
+  "status": "ok",
+  "site": "https://moveo.ai/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://framerusercontent.com/images/rRfgL123mKNhJF3SE4h28dPQVVY.png?width=672&height=145",
+    "kind": "logo-img",
+    "bytes": 4286,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://framerusercontent.com/images/rRfgL123mKNhJF3SE4h28dPQVVY.png?width=672&height=145",
+    "kind": "logo-img",
+    "bytes": 4286,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://framerusercontent.com/images/rRfgL123mKNhJF3SE4h28dPQVVY.png?width=672&height=145",
+    "kind": "logo-img",
+    "bytes": 4286,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://framerusercontent.com/images/FYeYdRA7Mn7rJV7zA5JKMMjPI.png?width=1604&height=400",
+    "kind": "logo-img",
+    "bytes": 10015,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://framerusercontent.com/images/pFUF9tfHUGNVwXvNqJ4KgnizQ.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 1119,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.svg",
+    "url": "https://framerusercontent.com/images/mFv8DWgrVK1LthpUgzZLunRF3Zo.svg",
+    "kind": "icon:icon",
+    "bytes": 485,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "6_icon.svg",
+    "url": "https://framerusercontent.com/images/mFv8DWgrVK1LthpUgzZLunRF3Zo.svg",
+    "kind": "icon:icon",
+    "bytes": 485,
+    "type": "image/svg+xml"
+   }
+  ]
+ },
+ "Bitloops": {
+  "status": "ok",
+  "site": "https://bitloops.com/",
+  "files": [
+   {
+    "file": "0_icon.png",
+    "url": "https://bitloops.com/static/favicons/apple-touch-icon.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 3305,
+    "type": "image/png"
+   },
+   {
+    "file": "1_icon.png",
+    "url": "https://bitloops.com/static/favicons/favicon-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 650,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://bitloops.com/static/favicons/favicon-16x16.png",
+    "kind": "icon:icon",
+    "bytes": 333,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Satori Analytics": {
+  "status": "ok",
+  "site": "https://satorianalytics.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://satorianalytics.com/images/satori-logo-white.svg",
+    "kind": "logo-img",
+    "bytes": 5224,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://satorianalytics.com/images/satori-logo-black.svg",
+    "kind": "logo-img",
+    "bytes": 5159,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://satorianalytics.com/images/satori-logo-lines-light.png",
+    "kind": "logo-img",
+    "bytes": 9093,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://satorianalytics.com/images/satori-logo-lines-dark.png",
+    "kind": "logo-img",
+    "bytes": 9070,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.ico",
+    "url": "https://satorianalytics.com/favicon.ico",
+    "kind": "icon:shortcut icon",
+    "bytes": 9198,
+    "type": "image/x-icon"
+   }
+  ]
+ },
+ "Keragon": {
+  "status": "ok",
+  "site": "https://www.keragon.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://cdn.prod.website-files.com/63510a2aca87d1e52f9f91e9/63513586a7e928327f5cc7d9_keragon-logo.svg",
+    "kind": "logo-img",
+    "bytes": 5548,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://cdn.prod.website-files.com/63510a2aca87d1e52f9f91e9/696f7d493bf275bf6deab699_athena-health_icon.png",
+    "kind": "logo-img",
+    "bytes": 3544,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://cdn.prod.website-files.com/63510a2aca87d1e52f9f91e9/6a75aac49cfc9784106eeb75_eclinicalworks.png",
+    "kind": "logo-img",
+    "bytes": 15154,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://cdn.prod.website-files.com/63510a2aca87d1e52f9f91e9/6a4cc0661b0d29042439b6bb_697ca4188962582f321638cb_drChrono.png",
+    "kind": "logo-img",
+    "bytes": 8557,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://cdn.prod.website-files.com/63510a2aca87d1e52f9f91e9/63510cee7f7629f5b1033016_256x256.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 2063,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://cdn.prod.website-files.com/63510a2aca87d1e52f9f91e9/63510cea8681751bbf8c7f20_32x32.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 384,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://cdn.prod.website-files.com/63510a2aca87d1e52f9f91e9/6352401b087c6f16cf29627d_opengraph.png",
+    "kind": "icon:og",
+    "bytes": 13302,
+    "type": "image/png"
+   }
+  ]
+ },
+ "TileDB (rebranded Tile.ai)": {
+  "status": "ok",
+  "site": "https://www.tile.ai/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://www.tile.ai/logos/avatars/Avatar%201.png",
+    "kind": "logo-img",
+    "bytes": 7825,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://www.tile.ai/logos/avatars/Avatar%202.png",
+    "kind": "logo-img",
+    "bytes": 7336,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://www.tile.ai/logos/avatars/Avatar%203.png",
+    "kind": "logo-img",
+    "bytes": 8375,
+    "type": "image/png"
+   },
+   {
+    "file": "3_icon.png",
+    "url": "https://www.tile.ai/favicon.png",
+    "kind": "icon:icon",
+    "bytes": 29884,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.jpg",
+    "url": "https://www.tile.ai/og-default.jpg",
+    "kind": "icon:og",
+    "bytes": 209400,
+    "type": "image/jpeg"
+   }
+  ]
+ },
+ "Proxy Foods AI": {
+  "status": "ok",
+  "site": "https://proxyfoods.ai/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://framerusercontent.com/images/UqAyE9ngrtHs1zDSsJCUKLkqk.png?width=7813&height=1221",
+    "kind": "logo-img",
+    "bytes": 59097,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://framerusercontent.com/images/UqAyE9ngrtHs1zDSsJCUKLkqk.png?width=7813&height=1221",
+    "kind": "logo-img",
+    "bytes": 59097,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://framerusercontent.com/images/4IKPyKHEpqhGRZDznLhkfO2sUdg.png?width=64&height=62",
+    "kind": "logo-img",
+    "bytes": 1260,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://framerusercontent.com/images/UqAyE9ngrtHs1zDSsJCUKLkqk.png?width=7813&height=1221",
+    "kind": "logo-img",
+    "bytes": 59097,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://framerusercontent.com/images/4IKPyKHEpqhGRZDznLhkfO2sUdg.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 1260,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://framerusercontent.com/images/4IKPyKHEpqhGRZDznLhkfO2sUdg.png",
+    "kind": "icon:icon",
+    "bytes": 1260,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://framerusercontent.com/images/4IKPyKHEpqhGRZDznLhkfO2sUdg.png",
+    "kind": "icon:icon",
+    "bytes": 1260,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Intryc": {
+  "status": "ok",
+  "site": "https://www.intryc.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://www.intryc.com/figma/nav/logo-intryc.svg",
+    "kind": "logo-img",
+    "bytes": 3073,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://www.intryc.com/figma/nav/logo-intryc-white.svg",
+    "kind": "logo-img",
+    "bytes": 2968,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://www.intryc.com/figma/hero/logo-deel.svg",
+    "kind": "logo-img",
+    "bytes": 3441,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://www.intryc.com/figma/hero/logo-preply.svg",
+    "kind": "logo-img",
+    "bytes": 6480,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://www.intryc.com/apple-icon.png?apple-icon.11vn9_45-j9t3.png?dpl=dpl_Hoz9GCA6kYUP4PvtMubk8rWsH9f6",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 1518,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.svg",
+    "url": "https://www.intryc.com/icon.svg?icon.1snb9epgcrqsk.svg?dpl=dpl_Hoz9GCA6kYUP4PvtMubk8rWsH9f6",
+    "kind": "icon:icon",
+    "bytes": 861,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "6_icon.ico",
+    "url": "https://www.intryc.com/favicon.ico?favicon.3fjvzxt1dxerx.ico?dpl=dpl_Hoz9GCA6kYUP4PvtMubk8rWsH9f6",
+    "kind": "icon:icon",
+    "bytes": 924,
+    "type": "image/vnd.microsoft.icon"
+   }
+  ]
+ },
+ "Pallma AI": {
+  "status": "ok",
+  "site": "https://vernolabs.ai:443/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://vernolabs.ai:443/logo.svg",
+    "kind": "logo-img",
+    "bytes": 666,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://vernolabs.ai:443/logo.svg",
+    "kind": "logo-img",
+    "bytes": 666,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://vernolabs.ai:443/logo-microsoft.svg",
+    "kind": "logo-img",
+    "bytes": 6042,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://vernolabs.ai:443/logo-aws.svg",
+    "kind": "logo-img",
+    "bytes": 5870,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://vernolabs.ai:443/apple-touch-icon.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 3921,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.svg",
+    "url": "https://vernolabs.ai:443/favicon.svg",
+    "kind": "icon:icon",
+    "bytes": 721,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://vernolabs.ai:443/favicon-96x96.png",
+    "kind": "icon:icon",
+    "bytes": 1848,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Axelera AI": {
+  "status": "ok",
+  "site": "https://axelera.ai/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://axelera.ai/hubfs/Axelera-White-header-logo-right-space-2.svg",
+    "kind": "logo-img",
+    "bytes": 5594,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://axelera.ai/hubfs/axelera-home-2026/media/logo/voyager-sdk.svg",
+    "kind": "logo-img",
+    "bytes": 6353,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.webp",
+    "url": "https://axelera.ai/hs-fs/hubfs/Advantech_logo.webp?width=180&height=37&name=Advantech_logo.webp",
+    "kind": "logo-img",
+    "bytes": 6330,
+    "type": "image/extended webp (lossless)"
+   },
+   {
+    "file": "3_logo-img.webp",
+    "url": "https://axelera.ai/hs-fs/hubfs/Aetina%20Logo.webp?width=150&height=34&name=Aetina%20Logo.webp",
+    "kind": "logo-img",
+    "bytes": 4766,
+    "type": "image/extended webp (lossless)"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://axelera.ai/hubfs/Axelera_February2025/images/cropped-favicon-axelera-270x270_@180.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 9120,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Think Silicon": {
+  "status": "site not found",
+  "tried": [
+   "think-silicon.com"
+  ]
+ },
+ "SolidWatts": {
+  "status": "ok",
+  "site": "https://www.solidwatts.ch/",
+  "files": [
+   {
+    "file": "0_icon.png",
+    "url": "https://www.solidwatts.ch/wp-content/uploads/2023/12/cropped-Main-favicon-180x180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 6085,
+    "type": "image/png"
+   },
+   {
+    "file": "1_icon.png",
+    "url": "https://www.solidwatts.ch/wp-content/uploads/2023/12/cropped-Main-favicon-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 566,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://www.solidwatts.ch/wp-content/uploads/2023/12/cropped-Main-favicon-192x192.png",
+    "kind": "icon:icon",
+    "bytes": 6199,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Circuits Integrated Hellas": {
+  "status": "ok",
+  "site": "https://www.circuitsintegrated.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://www.circuitsintegrated.com/wp-content/themes/circuits-integrated/images/logo-white.svg",
+    "kind": "logo-img",
+    "bytes": 4694,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://www.circuitsintegrated.com/wp-content/themes/circuits-integrated/images/logo-black.svg",
+    "kind": "logo-img",
+    "bytes": 4410,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://www.circuitsintegrated.com/wp-content/themes/circuits-integrated/images/icon-white.svg",
+    "kind": "logo-img",
+    "bytes": 452,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://www.circuitsintegrated.com/wp-content/themes/circuits-integrated/images/arrow.svg",
+    "kind": "logo-img",
+    "bytes": 213,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.svg",
+    "url": "https://www.circuitsintegrated.com/wp-content/uploads/2022/09/icon-black-1.svg",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 475,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "5_icon.svg",
+    "url": "https://www.circuitsintegrated.com/wp-content/uploads/2022/09/icon-black-1.svg",
+    "kind": "icon:icon",
+    "bytes": 475,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "6_icon.svg",
+    "url": "https://www.circuitsintegrated.com/wp-content/uploads/2022/09/icon-black-1.svg",
+    "kind": "icon:icon",
+    "bytes": 475,
+    "type": "image/svg+xml"
+   }
+  ]
+ },
+ "Navenio": {
+  "status": "ok",
+  "site": "https://navenio.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://navenio.com/wp-content/themes/Navenio/images/Navenio-Logo-Footer.svg",
+    "kind": "logo-img",
+    "bytes": 4136,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://navenio.com/wp-content/themes/Navenio/images/Navenio-Logo-Footer.svg",
+    "kind": "logo-img",
+    "bytes": 4136,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://navenio.com/wp-content/themes/Navenio/images/Navenio-Logo-Footer.svg",
+    "kind": "logo-img",
+    "bytes": 4136,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_icon.png",
+    "url": "https://navenio.com/wp-content/themes/Navenio/images/Navenio-Favicon.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 1000,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://naveniostg.wpenginepowered.com/wp-content/uploads/2024/04/nurse-circle-blue-overlay.png",
+    "kind": "icon:og",
+    "bytes": 115184,
+    "type": "image/png"
+   }
+  ]
+ },
+ "WeatherXM": {
+  "status": "ok",
+  "site": "https://weatherxm.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://weatherxm.com/assets/branding/logo-white-horizontal.svg",
+    "kind": "logo-img",
+    "bytes": 4846,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://weatherxm.com/assets/logos/wxm-token-logo.svg",
+    "kind": "logo-img",
+    "bytes": 2449,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://weatherxm.com/assets/logos/partners/synoptic.png",
+    "kind": "logo-img",
+    "bytes": 3826,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://weatherxm.com/assets/logos/partners/deepmind.svg",
+    "kind": "logo-img",
+    "bytes": 17616,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://weatherxm.com/assets/branding/apple-touch-icon-180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 4961,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.ico",
+    "url": "https://weatherxm.com/favicon.ico",
+    "kind": "icon:icon",
+    "bytes": 824,
+    "type": "image/vnd.microsoft.icon"
+   }
+  ]
+ },
+ "Better Origin": {
+  "status": "site not found",
+  "tried": [
+   "betterorigin.co",
+   "betterorigin.com"
+  ]
+ },
+ "Centaur Analytics": {
+  "status": "ok",
+  "site": "https://centaur.ag/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://centaur.ag/wp-content/uploads/2021/10/logo-or.svg",
+    "kind": "logo-img",
+    "bytes": 10679,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://centaur.ag/wp-content/uploads/2022/03/FENw.svg",
+    "kind": "logo-img",
+    "bytes": 13482,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://centaur.ag/wp-content/uploads/2021/09/l3.svg",
+    "kind": "logo-img",
+    "bytes": 12082,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://centaur.ag/wp-content/uploads/2021/09/l4.svg",
+    "kind": "logo-img",
+    "bytes": 11449,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://centaur.ag/wp-content/uploads/2021/10/cropped-favicon-180x180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 7808,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://centaur.ag/wp-content/uploads/2021/10/cropped-favicon-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 634,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://centaur.ag/wp-content/uploads/2021/10/cropped-favicon-192x192.png",
+    "kind": "icon:icon",
+    "bytes": 8116,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Intelligencia": {
+  "status": "ok",
+  "site": "https://www.intelligencia.ai/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://www.intelligencia.ai/wp-content/uploads/2025/01/IntelligenciaAI-logo-color.svg",
+    "kind": "logo-img",
+    "bytes": 24396,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://www.intelligencia.ai/wp-content/uploads/2025/01/IntelligenciaAI-logo-white.svg",
+    "kind": "logo-img",
+    "bytes": 15004,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_icon.svg",
+    "url": "https://www.intelligencia.ai/wp-content/uploads/2025/03/IntelligenciaAI-logo-color-favicon.svg",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 16520,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_icon.svg",
+    "url": "https://www.intelligencia.ai/wp-content/uploads/2025/03/IntelligenciaAI-logo-color-favicon.svg",
+    "kind": "icon:icon",
+    "bytes": 16520,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.svg",
+    "url": "https://www.intelligencia.ai/wp-content/uploads/2025/03/IntelligenciaAI-logo-color-favicon.svg",
+    "kind": "icon:icon",
+    "bytes": 16520,
+    "type": "image/svg+xml"
+   }
+  ]
+ },
+ "ORamaVR": {
+  "status": "ok",
+  "site": "https://oramavr.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://oramavr.com/assets/ORamaVR_logo_black.svg",
+    "kind": "logo-img",
+    "bytes": 2216,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://oramavr.com/assets/partners/hses-logo-english.png",
+    "kind": "logo-img",
+    "bytes": 963374,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://oramavr.com/assets/partners/hses-logo-english.png",
+    "kind": "logo-img",
+    "bytes": 963374,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://oramavr.com/assets/ORamaVR_logo_black.svg",
+    "kind": "logo-img",
+    "bytes": 2216,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.jpg",
+    "url": "https://oramavr.com/assets/doctor-in-vr.jpg",
+    "kind": "icon:og",
+    "bytes": 276850,
+    "type": "image/jpeg"
+   }
+  ]
+ },
+ "Anodyne Nanotech": {
+  "status": "ok",
+  "site": "https://forsale.dynadot.com/anodynenanotech.com?drefid=2071",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://forsale.dynadot.com/tr/mainsite2023/navbar-logo-dark-2023.png",
+    "kind": "logo-img",
+    "bytes": 2497,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Anacalypsis Therapeutics": {
+  "status": "ok",
+  "site": "https://anacalypsistherapeutics.com/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://anacalypsistherapeutics.com/wp-content/uploads/2023/05/cropped-Capture-1.png",
+    "kind": "logo-img",
+    "bytes": 29107,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Corsmed": {
+  "status": "ok",
+  "site": "https://www.corsmed.com/",
+  "files": [
+   {
+    "file": "0_logo-img.bin",
+    "url": "https://cdn.prod.website-files.com/66deeed3312de6b027a9fe2f/66df41e9aeccaefcd115f8ed_Corsmed%20logo%20full.avif",
+    "kind": "logo-img",
+    "bytes": 10293,
+    "type": "image/avif"
+   },
+   {
+    "file": "1_logo-img.bin",
+    "url": "https://cdn.prod.website-files.com/66deeed3312de6b027a9fe2f/682267dcf6e762f3dae4e677_CNI%20College%20Logo.avif",
+    "kind": "logo-img",
+    "bytes": 3805,
+    "type": "image/avif"
+   },
+   {
+    "file": "2_logo-img.bin",
+    "url": "https://cdn.prod.website-files.com/66deeed3312de6b027a9fe2f/6822682304c103a4b5f88f38_BCIT%20Logo.avif",
+    "kind": "logo-img",
+    "bytes": 7258,
+    "type": "image/avif"
+   },
+   {
+    "file": "3_logo-img.bin",
+    "url": "https://cdn.prod.website-files.com/66deeed3312de6b027a9fe2f/68246a459b00d8ee57793142_Cumbria%20Logo.avif",
+    "kind": "logo-img",
+    "bytes": 9273,
+    "type": "image/avif"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://cdn.prod.website-files.com/66deeed3312de6b027a9fe2f/6a8bf7d0eb905bd4e579d201_Square%20Logo.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 9301,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://cdn.prod.website-files.com/66deeed3312de6b027a9fe2f/6abbe23c31e6167446015afa_Corsmed%20Logo%20%E2%80%93%C2%A0Favicon.png",
+    "kind": "icon:icon",
+    "bytes": 1661,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://cdn.prod.website-files.com/66deeed3312de6b027a9fe2f/6abbe23c31e6167446015afa_Corsmed%20Logo%20%E2%80%93%C2%A0Favicon.png",
+    "kind": "icon:icon",
+    "bytes": 1661,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Bioemtech": {
+  "status": "ok",
+  "site": "https://bioemtech.com/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://bioemtech.com/wp-content/themes/bioemtech/library/imgs/preloader.png",
+    "kind": "logo-img",
+    "bytes": 2414,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://bioemtech.com/wp-content/themes/bioemtech/library/imgs/logo-dark.svg",
+    "kind": "logo-img",
+    "bytes": 9273,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://bioemtech.com/wp-content/themes/bioemtech/library/imgs/logo-dark.svg",
+    "kind": "logo-img",
+    "bytes": 9273,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://bioemtech.com/wp-content/themes/bioemtech/library/imgs/logo-dark.svg",
+    "kind": "logo-img",
+    "bytes": 9273,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://bioemtech.com/wp-content/uploads/2025/10/cropped-bioemtech-favicon-v2-180x180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 6146,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://bioemtech.com/wp-content/uploads/2025/10/cropped-bioemtech-favicon-v2-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 740,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://bioemtech.com/wp-content/uploads/2025/10/cropped-bioemtech-favicon-v2-192x192.png",
+    "kind": "icon:icon",
+    "bytes": 6415,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Feel Therapeutics": {
+  "status": "ok",
+  "site": "https://feeltherapeutics.com/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://cdn.prod.website-files.com/62750c88c7a91d8c3fe34046/6a034895da327b65512786e8_IQVIA%20feel%20therapeutics%20Logo%20-%20rgb.png",
+    "kind": "logo-img",
+    "bytes": 105088,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://cdn.prod.website-files.com/62750c88c7a91d8c3fe34046/627513efdc760b0c37c4c3c6_cnn%20logo%201.svg",
+    "kind": "logo-img",
+    "bytes": 4173,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://cdn.prod.website-files.com/62750c88c7a91d8c3fe34046/627513efdc760babbdc4c3c7_BI-logo-dark-opt%201.svg",
+    "kind": "logo-img",
+    "bytes": 4796,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://cdn.prod.website-files.com/62750c88c7a91d8c3fe34046/627513efdc760bd89bc4c3c8_TechCrunch_logo%201.svg",
+    "kind": "logo-img",
+    "bytes": 326,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://cdn.prod.website-files.com/62750c88c7a91d8c3fe34046/62750c88c7a91d8eabe34153_transfparentfeeliconlarge.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 7088,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://cdn.prod.website-files.com/62750c88c7a91d8c3fe34046/62750c88c7a91dc624e34148_transfparentfeelicon.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 2699,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Brainomix": {
+  "status": "ok",
+  "site": "https://www.brainomix.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://cdn.prod.website-files.com/69e0a08b3efbcfa15c020ad8/69edf8e12792d2380d591e6b_Logo.svg",
+    "kind": "logo-img",
+    "bytes": 7102,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://cdn.prod.website-files.com/69e0a08b3efbcfa15c020ad8/6a3ab17c5db09702d386bf88_Medtronic%202.svg",
+    "kind": "logo-img",
+    "bytes": 4006,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://cdn.prod.website-files.com/69e0a08b3efbcfa15c020ad8/6a3ab3cd3ce04da340b35a25_AstraZeneca%203.svg",
+    "kind": "logo-img",
+    "bytes": 7661,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://cdn.prod.website-files.com/69e0a08b3efbcfa15c020ad8/6a3ab3deaab8e215f28ddca6_Boehringer%20Ingelheim%202.svg",
+    "kind": "logo-img",
+    "bytes": 11151,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://cdn.prod.website-files.com/69e0a08b3efbcfa15c020ad8/6a5e2bfa36392f0039ce7cad_Icon.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 6238,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://cdn.prod.website-files.com/69e0a08b3efbcfa15c020ad8/6a5e2bfb0c271463508295db_Icon.png",
+    "kind": "icon:icon",
+    "bytes": 952,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://cdn.prod.website-files.com/69e0a08b3efbcfa15c020ad8/6a5e2bfb0c271463508295db_Icon.png",
+    "kind": "icon:icon",
+    "bytes": 952,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Achira AI": {
+  "status": "ok",
+  "site": "https://achira.ai/",
+  "files": [
+   {
+    "file": "2_icon.png",
+    "url": "https://achira.ai/og-image.png",
+    "kind": "icon:og",
+    "bytes": 4595,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Causaly": {
+  "status": "ok",
+  "site": "https://www.causaly.com/",
+  "files": [
+   {
+    "file": "0_logo-img.bin",
+    "url": "https://cdn.prod.website-files.com/66a8e5ccd2c6460e01d4d385/6878c3b63ec04e2623da275b_L%27Ore%CC%81al%20logo%20300x54.avif",
+    "kind": "logo-img",
+    "bytes": 1699,
+    "type": "image/avif"
+   },
+   {
+    "file": "1_logo-img.bin",
+    "url": "https://cdn.prod.website-files.com/66a8e5ccd2c6460e01d4d385/684fef71b823c32638c5d54a_Ipsen%20-%20Colour%20logo%20small.avif",
+    "kind": "logo-img",
+    "bytes": 2799,
+    "type": "image/avif"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://cdn.prod.website-files.com/66a8e5ccd2c6460e01d4d385/69a581fb792500ce0c0dc892_bf749777a3577432287d345396cd25d5_Lupin%20logo%20-%20Colour%20small.png",
+    "kind": "logo-img",
+    "bytes": 16298,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.bin",
+    "url": "https://cdn.prod.website-files.com/66a8e5ccd2c6460e01d4d385/68c2a46e09086bfb97c69f3a_Teva%20Logo%20(Website)%20small%202.avif",
+    "kind": "logo-img",
+    "bytes": 2938,
+    "type": "image/avif"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://cdn.prod.website-files.com/66a8e5ccd2c6460e01d4d385/6717b5923036091af58ef843_Favicon%20256.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 4323,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://cdn.prod.website-files.com/66a8e5ccd2c6460e01d4d385/6717b58e9d72e44f9f95ccc8_Favicon%2032.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 756,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://cdn.prod.website-files.com/66a8e5ccd2c6460e01d4d385/672df2a4ee2a2b11a52a6c72_OG%20Image%20-%20Home.png",
+    "kind": "icon:og",
+    "bytes": 51040,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Purposeful": {
+  "status": "site not found",
+  "tried": [
+   "purposeful.ai",
+   "purposeful.gr",
+   "purposeful.bio"
+  ]
+ },
+ "Delian Alliance Industries": {
+  "status": "ok",
+  "site": "https://delian.io/",
+  "files": [
+   {
+    "file": "0_icon.ico",
+    "url": "https://delian.io/favicon.ico",
+    "kind": "icon:icon",
+    "bytes": 5558,
+    "type": "image/vnd.microsoft.icon"
+   }
+  ]
+ },
+ "Hack The Box": {
+  "status": "ok",
+  "site": "https://www.hackthebox.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://www.hackthebox.com/hubfs/raw_assets/HackTheBox/56/js_client_assets/assets/nav-logo-3JkQrnNl.svg",
+    "kind": "logo-img",
+    "bytes": 9384,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://www.hackthebox.com/hubfs/raw_assets/HackTheBox/56/js_client_assets/assets/nav-logo-3JkQrnNl.svg",
+    "kind": "logo-img",
+    "bytes": 9384,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://www.hackthebox.com/hubfs/raw_assets/HackTheBox/56/js_client_assets/assets/nav-logo-3JkQrnNl.svg",
+    "kind": "logo-img",
+    "bytes": 9384,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://www.hackthebox.com/hubfs/banner-logo-google.svg",
+    "kind": "logo-img",
+    "bytes": 1724,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://www.hackthebox.com/hubfs/Cube_favicon.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 2394,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.jpg",
+    "url": "https://www.hackthebox.com/hubfs/OG_hackthebox.com_1200x630.jpg",
+    "kind": "icon:og",
+    "bytes": 66325,
+    "type": "image/jpeg"
+   }
+  ]
+ },
+ "Sotiria Technology": {
+  "status": "ok",
+  "site": "https://www.sotiria.gr/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://www.sotiria.gr/fileadmin/images/sotiria_logo.png",
+    "kind": "logo-img",
+    "bytes": 23032,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.jpg",
+    "url": "https://www.sotiria.gr/fileadmin/logo_ESPA_gr.jpg",
+    "kind": "logo-img",
+    "bytes": 158477,
+    "type": "image/jpeg"
+   },
+   {
+    "file": "2_logo-img.jpg",
+    "url": "https://www.sotiria.gr/fileadmin/images/logotipo_espa.jpg",
+    "kind": "logo-img",
+    "bytes": 21338,
+    "type": "image/jpeg"
+   },
+   {
+    "file": "3_icon.png",
+    "url": "https://www.sotiria.gr/fileadmin/images/sotiria_logo.png",
+    "kind": "icon:icon",
+    "bytes": 23032,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Prisma Electronics": {
+  "status": "ok",
+  "site": "https://prismael.com/index.php/en/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://prismael.com/media/yootheme/cache/ab/RGB_Horizontal_Prisma_Logo-ab126f46.png",
+    "kind": "logo-img",
+    "bytes": 9027,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://prismael.com/media/yootheme/cache/ab/RGB_Horizontal_Prisma_Logo-ab126f46.png",
+    "kind": "logo-img",
+    "bytes": 9027,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://prismael.com/media/yootheme/cache/e7/mice-1-logo--e791e840.png",
+    "kind": "logo-img",
+    "bytes": 1496,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://prismael.com/images/RnD-Projects/logos/espa_pamth_banner_logo.png",
+    "kind": "logo-img",
+    "bytes": 13210,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://prismael.com/images/logo/favicon_apple_touch26.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 5599,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://prismael.com/images/logo/favicon26.png",
+    "kind": "icon:icon",
+    "bytes": 3278,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Open Cosmos (Open Cosmos Aegean)": {
+  "status": "ok",
+  "site": "https://open-cosmos.com/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://cdn.prod.website-files.com/66002f06fdfbc3c2dddd5af3/66002f3396b8dc6eece4dccc_Open%20Cosmos%20Logo%20(Dark)-01.svg",
+    "kind": "logo-img",
+    "bytes": 44510,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_icon.png",
+    "url": "https://cdn.prod.website-files.com/6464fc1ad490ebad0c22111d/6464fc1ad490ebad0c2211cd_Open%20Cosmos%20Webclip.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 6313,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://cdn.prod.website-files.com/6464fc1ad490ebad0c22111d/6464fc1ad490ebad0c2211ce_Open%20Cosmos%20Favicon.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 720,
+    "type": "image/png"
+   },
+   {
+    "file": "3_icon.png",
+    "url": "https://cdn.prod.website-files.com/6464fc1ad490ebad0c22111d/682d90ab5fed0eb60502e9e7_Open_Cosmos_Stacked_Black_CMYK.png",
+    "kind": "icon:og",
+    "bytes": 18457,
+    "type": "image/png"
+   }
+  ]
+ },
+ "DeepSea Technologies": {
+  "status": "ok",
+  "site": "https://www.deepsea.ai/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://static.wixstatic.com/media/7e3077_31dc19e4803548618efa2c8785bdc58b~mv2.png/v1/fill/w_49,h_15,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/deepsea%20logo%20total%20white.png",
+    "kind": "logo-img",
+    "bytes": 1924,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://static.wixstatic.com/media/7e3077_068cf8d0270e473181043a3671d31868~mv2.png/v1/fill/w_62,h_25,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/eastern%20pacific%20logo_edited_edited.png",
+    "kind": "logo-img",
+    "bytes": 2513,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://static.wixstatic.com/media/7e3077_621adf239bc74040a424bbbf99dcd217~mv2.png/v1/fill/w_49,h_13,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Ardmore-LANDSCAPE-LOGO_edited_edited.png",
+    "kind": "logo-img",
+    "bytes": 1568,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://static.wixstatic.com/media/7e3077_068cf8d0270e473181043a3671d31868~mv2.png/v1/fill/w_62,h_25,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/eastern%20pacific%20logo_edited_edited.png",
+    "kind": "logo-img",
+    "bytes": 2513,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.jpg",
+    "url": "https://static.wixstatic.com/media/7e3077_ab13a27693fa4293b9f5456dc9f2bca1%7Emv2.jpg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/7e3077_ab13a27693fa4293b9f5456dc9f2bca1%7Emv2.jpg",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 6690,
+    "type": "image/jpeg"
+   },
+   {
+    "file": "5_icon.jpg",
+    "url": "https://static.wixstatic.com/media/7e3077_ab13a27693fa4293b9f5456dc9f2bca1%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/7e3077_ab13a27693fa4293b9f5456dc9f2bca1%7Emv2.jpg",
+    "kind": "icon:icon",
+    "bytes": 7024,
+    "type": "image/jpeg"
+   },
+   {
+    "file": "6_icon.jpg",
+    "url": "https://static.wixstatic.com/media/7e3077_ab13a27693fa4293b9f5456dc9f2bca1%7Emv2.jpg/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/7e3077_ab13a27693fa4293b9f5456dc9f2bca1%7Emv2.jpg",
+    "kind": "icon:shortcut icon",
+    "bytes": 1405,
+    "type": "image/jpeg"
+   }
+  ]
+ },
+ "Code BGP": {
+  "status": "no logo file",
+  "site": "https://www.codebgp.com/",
+  "files": []
+ },
+ "iCOMAT": {
+  "status": "ok",
+  "site": "https://www.icomat.co.uk/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://images.prismic.io/icomat/aVFZ23NYClf9oqbg_f48a5d32-6963-4b34-93e0-f9bcf5d41c69.png?auto=format,compress",
+    "kind": "logo-img",
+    "bytes": 1421,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://images.prismic.io/icomat/aVFaI3NYClf9oqbl_Isolation_Mode.png?auto=format,compress",
+    "kind": "logo-img",
+    "bytes": 1737,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://images.prismic.io/icomat/aVFaDHNYClf9oqbj_Untitled-11.png?auto=format,compress",
+    "kind": "logo-img",
+    "bytes": 1580,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://images.prismic.io/icomat/aZW3KFWLo0XkEoW5_logo-pall.png?auto=format,compress",
+    "kind": "logo-img",
+    "bytes": 2366,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://www.icomat.co.uk/icons/apple-touch-icon.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 14553,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.svg",
+    "url": "https://www.icomat.co.uk/icons/favicon.svg",
+    "kind": "icon:icon",
+    "bytes": 52016,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "6_icon.ico",
+    "url": "https://www.icomat.co.uk/icons/favicon.ico",
+    "kind": "icon:icon",
+    "bytes": 15086,
+    "type": "image/vnd.microsoft.icon"
+   }
+  ]
+ },
+ "MarineTraffic": {
+  "status": "no logo file",
+  "site": "https://www.marinetraffic.com/",
+  "files": []
+ },
+ "Core Innovation and Technology": {
+  "status": "ok",
+  "site": "https://www.core-innovation.com/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://www.core-innovation.com/s/CORE-beat-logo-crop.png",
+    "kind": "logo-img",
+    "bytes": 277065,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://www.core-innovation.com/s/logo-ww.svg",
+    "kind": "logo-img",
+    "bytes": 4867,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://www.core-innovation.com/s/effra-logo-1024x354.png",
+    "kind": "logo-img",
+    "bytes": 81839,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://www.core-innovation.com/s/hetia.png",
+    "kind": "logo-img",
+    "bytes": 42776,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.ico",
+    "url": "https://images.squarespace-cdn.com/content/v1/6065b2a31bcfa623c2e55318/0c820090-d5fe-41ad-8681-f3c4484b158b/favicon.ico",
+    "kind": "icon:icon",
+    "bytes": 696,
+    "type": "image/webp"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "http://static1.squarespace.com/static/6065b2a31bcfa623c2e55318/t/69049e11a72abd4101251fe9/1761910289279/CORE+Innovation+Group+-Horizontal.png?format=1500w",
+    "kind": "icon:og",
+    "bytes": 39364,
+    "type": "image/webp"
+   }
+  ]
+ }
+}

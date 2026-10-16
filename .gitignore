@@ -1,0 +1,9 @@
+__pycache__/
+logos/raw/
+logos/prep/
+logos/contact_*.png
+logos/preview.png
+logos/r[0-9].png
+logos/t[0-9].png
+logos/fetch_log.txt
+*.pyc

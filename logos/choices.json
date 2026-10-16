@@ -1,0 +1,154 @@
+{
+ "Acumino": {
+  "file": "acumino__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Anacalypsis Therapeutics": {
+  "file": "anacalypsis__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Bioemtech": {
+  "file": "bioemtech__1_logo-img.png",
+  "mode": "wide"
+ },
+ "Bota Systems": {
+  "file": "bota-systems__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Brainomix": {
+  "file": "brainomix__0_logo-img.png",
+  "mode": "wide",
+  "dark_bg": true
+ },
+ "Centaur Analytics": {
+  "file": "centaur-analytics__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Circuits Integrated Hellas": {
+  "file": "circuits-integrated__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Corsmed": {
+  "file": "corsmed__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Feel Therapeutics": {
+  "file": "feel-therapeutics__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Gizelis Robotics": {
+  "file": "gizelis-robotics__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Hack The Box": {
+  "file": "hack-the-box__0_logo-img.png",
+  "mode": "wide",
+  "dark_bg": true
+ },
+ "Intelligencia": {
+  "file": "intelligencia__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Intryc": {
+  "file": "intryc__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Keragon": {
+  "file": "keragon__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Navenio": {
+  "file": "navenio__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Open Cosmos (Open Cosmos Aegean)": {
+  "file": "open-cosmos__3_icon.png",
+  "mode": "wide"
+ },
+ "ORamaVR": {
+  "file": "oramavr__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Perceptual Robotics": {
+  "file": "perceptual-robotics__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Prisma Electronics": {
+  "file": "prisma-electronics__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Progressive Robotics": {
+  "file": "progressive-robotics__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Proxy Foods AI": {
+  "file": "proxy-foods__0_logo-img.png",
+  "mode": "wide"
+ },
+ "SAS Technology": {
+  "file": "sas-technology__0_logo-img.png",
+  "mode": "wide",
+  "dark_bg": true
+ },
+ "Satori Analytics": {
+  "file": "satori-analytics__0_logo-img.png",
+  "mode": "wide"
+ },
+ "SolidWatts": {
+  "file": "solidwatts__2_icon.png",
+  "mode": "wide"
+ },
+ "Sotiria Technology": {
+  "file": "sotiria__0_logo-img.png",
+  "mode": "icon"
+ },
+ "Ucandrone": {
+  "file": "ucandrone__1_logo-img.png",
+  "mode": "wide"
+ },
+ "WeatherXM": {
+  "file": "weatherxm__0_logo-img.png",
+  "mode": "wide",
+  "dark_bg": true
+ },
+ "Bitloops": {
+  "file": "bitloops__0_icon.png",
+  "mode": "icon"
+ },
+ "Moveo.AI": {
+  "file": "moveo-ai__4_icon.png",
+  "mode": "icon"
+ },
+ "TileDB (rebranded Tile.ai)": {
+  "file": "tiledb__3_icon.png",
+  "mode": "icon"
+ },
+ "Pallma AI": {
+  "file": "pallma__0_logo-img.png",
+  "mode": "icon"
+ },
+ "iCOMAT": {
+  "file": "icomat__5_icon.png",
+  "mode": "icon"
+ },
+ "DeepSea Technologies": {
+  "file": "deepsea__4_icon.png",
+  "mode": "icon"
+ },
+ "Altus LSA": {
+  "file": "altus-lsa__6_icon.png",
+  "mode": "icon"
+ },
+ "Axelera AI": {
+  "file": "axelera__4_icon.png",
+  "mode": "icon"
+ },
+ "Core Innovation and Technology": {
+  "file": "core-innovation__5_icon.png",
+  "mode": "wide"
+ },
+ "Causaly": {
+  "file": "causaly__4_icon.png",
+  "mode": "icon"
+ }
+}
