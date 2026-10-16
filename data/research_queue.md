@@ -1,13 +1,31 @@
-# Research queue (still open)
+# Research queue (open items as of 2026-10-16)
 
-Worked through in pass 2: Corsmed, Juisci, Nutropy, Better Origin, Bioemtech, Feel Therapeutics, Purposeful, Brainomix, Achira, Circuits Integrated, Bota Systems, Centaur Analytics, PolyModels Hub, NOFire AI, Causaly, ClearDrop, iCOMAT, MarineTraffic, Core.
+## On Hold (6, not on the map)
+- Koios Care: round verified, founders' nationality not found
+- PiDust: only a 2020 source; no 2025-26 activity or funding found
+- QUBITECH: only a vendor guide names it
+- PolyModels Hub: round verified, no Greek founder or Athens link found
+- NOFire AI: round verified, HQ listed in the US, Greek link not sourced
+- ClearDrop: one interview, no funding, location or Greek link
 
-## Still unresolved
-- Greek link needed: Axelera AI, Caristo, Edra, Astrato, Navenio, Koios Care, Intryc, PolyModels Hub
-- Existence or status check: PiDust (2020 source only), QUBITECH, SAS Technology, Aether Aeronautics, Ucandrone, Purposeful
-- Funding data missing: Core, Gizelis Robotics, Altus LSA, Prisma Electronics, Sotiria
-- Investor lists to fetch: Brainomix Series C, Achira AI round, Acumino lead (sources conflict)
-- Not yet checked: SquareDev, Dataphoria, Mobito, Satways, Attisat, Seervision, Krotos, Intelistyle, Averywell (Manchester, Genesis pre-seed, no Greek link found)
-- Quantum: no verified Greek venture-backed company yet
-- Not Greek, excluded: OroraTech, Piq Energy, Capalo AI, Nutropy (French; Big Pi co-led)
-- Blocked sources to read manually: Sifted Greek deeptech list, EU-Startups Greece 2026 list, Seedtable pages, full Big Pi and Marathon portfolio pages
+## Shown on the map but partly unconfirmed
+- Greek link thin: Axelera AI (Greek CTO, no Greek office), Intryc, Navenio, Keragon, Causaly (HQ unknown)
+- Core Innovation: logo and site (core-innovation.com) assumed to be the Greek Core Innovation and Technology
+- Pallma AI: pallma.ai redirects to Verno Labs; rebrand not confirmed by a press source
+- Funding not found: Core, Gizelis Robotics, Altus LSA, SAS Technology, Aether Aeronautics, Ucandrone, Prisma Electronics, Sotiria, Purposeful (deal value)
+- Investor lists to fetch: Brainomix Series C, Achira AI round and stage, Acumino lead (sources conflict)
+
+## No logo on the map (name shown as text)
+Think Silicon, Better Origin, Velos Rotors, Delian Alliance, Augmenta, Aether Aeronautics, Purposeful, Achira AI, Code BGP, MarineTraffic. No official site or logo file could be fetched.
+
+## Not yet checked
+SquareDev, Dataphoria, Mobito, Satways, Attisat, Seervision, Krotos, Intelistyle, Averywell (Manchester, Genesis pre-seed, no Greek link found)
+
+## Excluded after checking
+Caristo Diagnostics, Edra, Astrato Analytics (no Greek link found); Juisci (Paris), Straion (Austria), Nutropy (France) with Greek lead investors; StiQ (foodtech); Butler POS (no funding found, not clearly deep tech). Not Greek and never added: OroraTech, Piq Energy, Capalo AI.
+
+## Quantum
+No verified venture-backed Greek company yet. This is a finding in the analysis.
+
+## Sources that block automated reading
+Sifted Greek deeptech list, EU-Startups Greece 2026 list, Tracxn, Seedtable pages, full Big Pi and Marathon portfolio pages. Read these by hand to find missing companies.

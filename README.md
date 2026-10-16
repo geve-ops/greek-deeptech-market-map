@@ -1,5 +1,7 @@
 # Greek Deep Tech Market Map
 
+[![Greek Deep Tech Market Map](map/greek_deeptech_market_map_preview.png)](map/greek_deeptech_market_map.pdf)
+
 A research dataset, a one-page market map, a short analysis and a 2027 investment thesis for the Greek deep tech ecosystem.
 
 Author: Gerald Velas. Data as of 16 October 2026.
