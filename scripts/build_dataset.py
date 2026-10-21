@@ -714,6 +714,81 @@ upd("Pinepeak", last_round_amount="UNVERIFIED (an aggregator lists USD 580K tota
 upd("Pleioflow", last_round_amount="UNVERIFIED (PitchBook lists USD 1.74M, undated; not re-confirmed)",
     verification_status="Greek subsidiary and Genesis portfolio listing verified; amount UNVERIFIED")
 
+
+# ---------------- Seventh pass: founding years, websites, dates (2026-10-21) ----------------
+upd("Acumino", founded="2021 (CB Insights, Endeavor, Preqin; one outlet says 2023)",
+    hq_greek_link="Washington state per CB Insights and Preqin; Endeavor Greece lists the company with offices in the USA, Greece and New Zealand; founders Minas Liarokapis (CEO), Tom White, Patrick Jarvis",
+    source_link="https://bigpi.vc/ | https://www.endeavor.org.gr/companies/acumino | https://www.cbinsights.com/company/acumino | https://www.trysignalbase.com/news/funding/acumino-secures-117 | https://www.caplight.com/investor/radarventures | https://www.orrick.com/fr-FR/News/2026/07/Acumino-Raises-11-7-Million-Seed-Round-and-Joins-Google-DeepMinds-European-Robotics-Accelerator")
+upd("Augmenta", founded="2016 (Elevate Greece registry) or 2017 (Dealroom)",
+    hq_greek_link="Athens, Greece (also Austin, Texas); founders George Varvarelis and Dimitris Evangelopoulos; early work in Volos per Endeavor; offices kept after the acquisition",
+    notes="Shown as exit context. Marathon was a shareholder; its proceeds are not disclosed in sources found. Founding year differs between registry and Dealroom.")
+upd("SAS Technology", founded="2020 (July, company site and Army Recognition; research since 2015)",
+    hq_greek_link="Piraeus HQ with engineering facilities in Glyka Nera, Athens; subsidiary of Spirit World Group (founded 2004)",
+    source_link="https://sas-tech.gr/about.html | https://sas-tech.gr/dl/SAS_Brochure.pdf | https://greekreporter.com/2025/02/16/greek-drone-sarisa-rocket-combat-ready/")
+upd("Keragon", founded="2022 (CB Insights, PitchBook) or 2024 (The Recursive)",
+    hq_greek_link="New York (PitchBook, The Recursive) or Boston (CB Insights); described as Greek-founded by The Recursive and Vestbee; founders Conno Christou, George Makkoulis, Panos Papageorgiou, George Eracleous (earlier co-founded Avocarrot)",
+    verification_status="Round verified; Greek link from two outlets (The Recursive, Vestbee)",
+    source_link="https://keragon.com/blog/keragon-ai-powered-healthcare-automation-platform-secured-7-5m-seed-round | https://vestbee.com/blog/articles/keragon-raises-7-5-m | https://therecursive.com/?p=39354 | https://www.cbinsights.com/company/keragon")
+upd("Proxy Foods AI", founded="2022 (Georgetown alumni page, Endeavor)",
+    source_link="https://pulse2.com/proxy-foods-ai-raises-6-million-seed-round-to-expand-ai-native-food-rd-platform/amp/ | https://www.endeavor.org.gr/entrepreneurs/panos-kostopoulos | https://biotechnology.georgetown.edu/alumni-entrepreneurs/proxy-foods/")
+upd("Intryc", founded="2024 (inferred from Y Combinator S24; not stated)")
+upd("Think Silicon", founded="2007 (founders George Sidiropoulos and Iakovos Stamoulis)",
+    source_link="https://thehellenicinitiative.org/thi-news/the-hellenic-initiatives-annual-venture-fair-winner-think-silicon-acquired-by-applied-materials/ | https://endeavor.org.gr/think-silicon-from-patras-greece-to-its-acquisition-by-applied-materials/ | https://www.jonpeddie.com/techwatch/think-silicon-secures-investment-round-2/")
+upd("Intelligencia", founded="2017 (most sources; newmoney.gr says 2018); co-founders Dimitrios Skaltsas and Vangelis Vergetis")
+upd("ORamaVR", founded="2016 (FORTH spin-off in Heraklion; formerly Ovid VR)",
+    hq_greek_link="Geneva (HQ) with a Greek entity in Heraklion, Crete (Elevate Greece registry); FORTH-ICS is an investor",
+    source_link="https://athenstechcircle.beehiiv.com/p/oramavr-secures-4-5m-late-seed-funding | https://ggba.swiss/en/geneva-based-oramavr-raises-usd-4-5-million-to-scale-medical-xr-training-solutions/ | https://registry.elevategreece.gov.gr/company/oramavr-%CE%BC%CE%BF%CE%BD%CE%BF%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B7-%CE%B1-%CE%B5/")
+upd("Anodyne Nanotech", founded="2019 (Boston Globe, Endeavor, Built In Boston); founders Hojat Rezaei Nejad, Konstantinos Tzortzakis, Jake Lombardo",
+    hq_greek_link="Boston; listed by Endeavor Greece, which profiles co-founder and chief business officer Konstantinos Tzortzakis; Greek VCs invested",
+    website="https://www.theheropatch.com/")
+upd("Anacalypsis Therapeutics", founded="2019 (single source)",
+    last_round_amount="EUR 300K (Athens LifeTech Park post, Brain Gain Fund); aggregators list USD 340-344K")
+upd("Prisma Electronics", founded="1991 (Alexandroupolis; several company profiles)")
+upd("Bioemtech", founded="2013 (one profile; company is BioEmission Technology Solutions IKE)",
+    hq_greek_link="Athens, Greece (NCSR Demokritos Technology Park, Pallini; Elevate Greece registry)")
+upd("Feel Therapeutics", founded="2015 (formerly Sentio Solutions and Myfeel)",
+    hq_greek_link="HQ San Francisco; about 30 staff in Athens, mainly R&D (Hellenic Initiative); co-founders George Eleftheriou (CEO) and Haris Tsirmpas (CTO); listed in the Elevate Greece registry",
+    verification_status="Verified (Greek R&D base confirmed by the Hellenic Initiative); totals conflict (USD 7.5M vs 22.5M)",
+    source_link="https://thehellenicinitiative.org/feel-therapeutics-brings-objective-measurements-to-mental-health-diagnosis-and-treatment | https://greekanalyst.substack.com/p/reinventing-mental-health | https://registry.elevategreece.gov.gr/company/sentio-solutions/ | https://www.cbinsights.com/company/feel-therapeutics/financials",
+    map_status="Include")
+upd("Brainomix", founded="2010 (University of Oxford spin-out; co-founder and CEO Michalis Papadakis)",
+    hq_greek_link="Oxford, UK; profiled by Endeavor Greece (founder Michalis Papadakis); nationality and a Greek office not stated",
+    source_link="https://www.brainomix.com/news/brainomix-series-c/ | https://www.endeavor.org.gr/companies/brainomix | https://www.ox.ac.uk/news/2024-02-06-oxford-spinout-brainomix-is-revolutionising-stroke-care-through-ai | https://www.auntminnie.com/imaging-informatics/artificial-intelligence/article/15740447/brainomix-completes-18m-funding-round-plans-us-expansion")
+upd("Achira AI", founded="2023 (one article) or 2024 (Startup-Seeker, Built In)",
+    hq_greek_link="San Francisco per Built In (hybrid SF/New York); Greek co-founder Theofanis Karaletsos; described as having Greek roots by FastForward",
+    source_link="https://finder.techleap.nl/news/feed/achira-ai-secures-33m-in-funding | https://www.thenationalherald.com/greek-startup-achira-ai-gets-33-million-in-investor-funding/ | https://fastforward.com.cy/breakthrough/achira-biotech-startup-greek-roots-nvidia | https://builtin.com/company/achira/teams")
+upd("Causaly", founded="2018 (incorporated 2018-05-17, Companies House)",
+    hq_greek_link="London, UK (Companies House); Greek founder Ioannis Kiachopoulos per Greek press; no Athens office found")
+upd("Bota Systems", founded="2020 (ETH Zurich spin-off, independent from 2020)",
+    hq_greek_link="Zurich; CEO Klajd Lika grew up in Greece and studied in Athens (profile), co-founder Ilias Patsiaouras; Marathon-led; covered by Greek press",
+    source_link="https://www.startupticker.ch/en/news/bota-systems-raises-2-5-million-in-seed-round | https://www.walderwyss.com/en/news/2023-10-03_bota-systems-ag-announces-the-completion-of-usd-2-5m-seed-round | https://www.powergame.gr/start-ups-digital/520909/bota-systems-ependyei-25-dis-dol-gia-ta-robot/")
+upd("Centaur Analytics", founded="2014 (Elevate Greece registry; Endeavor data field says 2016); co-founders Sotiris Bantas and Vasilis Sotiroudas",
+    last_round_date="2018-10 (USD 3M round, ImpactAlpha 2018-10-11); first seed 2016-09",
+    source_link="https://agfundernews.com/centaur-analytics-raises-3m-seed-round-for-post-harvest-crop-monitoring | https://impactalpha.com/centaur-analytics-secures-3-million-to-cut-food-waste-using-sensors | https://registry.elevategreece.gov.gr/company/centaur-technologies-p-c | https://www.endeavor.org.gr/companies/centaur-analytics")
+upd("Code BGP", founded="2021 (FORTH spin-off announced 2021-06-23)",
+    last_round_date="2023-08 (acquisition by Cisco)",
+    hq_greek_link="Heraklion, Crete (Elevate Greece registry); Delaware parent with a Greek subsidiary; FORTH-ICS spin-off; founders Xenofontas Dimitropoulos, Vasileios Kotronis, Lefteris Manassakis",
+    verification_status="Acquisition verified (Cisco ThousandEyes, FORTH, GSRI); August 2023 per FORTH news item",
+    source_link="https://www.thousandeyes.com/blog/cisco-announces-acquisition-of-codebgp | https://www.forth.gr/en/news/show/&tid=3011 | https://gsri.gov.gr/en/forth-ics-spin-off-company-code-bgp-acquired-by-cisco/ | https://forth.gr/en/news/show/&tid=1940 | https://registry.elevategreece.gov.gr/company/code-bgp")
+upd("Terra Robotics", founded="2020 (CB Insights, single source)")
+upd("Hoplon AI", founded="2023 (one report)")
+upd("Attisat", founded="UNVERIFIED (active with ESA by 2003)", website="https://attisat.gr/ (listed by ESA ARTES; the site fails a certificate check)")
+upd("Seervision", founded="2016 (ETH Zurich spin-off; founders Nikos Kariotoglou, Reto Hofmann, Conrad von Grebel)",
+    website="https://www.seervision.com/ (redirects to Q-SYS)")
+upd("Intelistyle", founded="2017 (launched December 2017) or 2018 (Startups 100)", website="https://intelistyle.com/")
+upd("Pleioflow", founded="2018 (CB Insights, PitchBook)",
+    hq_greek_link="Burton-on-Trent, UK with offices in Germany and Greece (2024 conference talk); Greek subsidiary Pleioflow Hellas SA (Nea Kifissia); listed by Genesis Ventures",
+    website="https://pleioflow.com/")
+# websites confirmed by fetching the page in the logo step
+upd("Velos Rotors", website="https://velos-rotors.com/")
+upd("Robenso", website="https://robenso.gr/")
+upd("ClearDrop", website="https://cleardrop.tech/")
+upd("Neurohive", website="https://neurohive.eu/")
+upd("PlugSecure", website="https://plugsecure.com/")
+upd("Mind The Hack", website="https://mindthehack.ai/")
+upd("Hoplon AI", website="https://hoplonai.com/")
+upd("Satways", website="https://www.satways.net/")
+
 for i, r in enumerate(R, 1):
     r["company_id"] = "GRDT-%03d" % i
 

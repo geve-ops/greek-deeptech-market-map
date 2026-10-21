@@ -42,7 +42,7 @@ Current counts: 31 Include, 32 Borderline, 2 Hold, 17 Exclude.
 
 ## Verification
 
-`data/verification_report.csv` checks every source link automatically (company name, amount and lead investor must appear on the cited page). 60 of 63 mapped companies pass; the rest were checked by hand or are flagged. See [data/verification_notes.md](data/verification_notes.md) for what the check does and does not prove, and for the known gaps (founding year missing for 30 of 63, website for 20).
+`data/verification_report.csv` checks every source link automatically (company name, amount and lead investor must appear on the cited page). 60 of 63 mapped companies pass; the rest were checked by hand or are flagged. See [data/verification_notes.md](data/verification_notes.md) for what the check does and does not prove, and for the known gaps (founding year now missing for 5 of 63, website for 7).
 
 ## Method
 

@@ -17,4 +17,4 @@ Not re-verified: Bioemtech (figures come from a PDF presentation the script coul
 
 Fixes made during this check: three aggregator amounts (Neurohive, Pinepeak, Pleioflow) were downgraded to UNVERIFIED; TileDB's investor list was corrected to the company release; Purposeful's deal date was added.
 
-Known gaps in the mapped rows: founding year missing for 30 of 63, website missing for 20, last-round date missing for 17, last-round amount missing or unverified for 11.
+Known gaps in the mapped rows (after the 2026-10-21 fill pass): founding year missing for 5 of 63 (Velos Rotors, Aether Aeronautics, Core Innovation, ClearDrop, Attisat), website missing for 7, last-round date missing for 15 and amount for 11. Most missing dates and amounts belong to companies with no external funding round on record.
