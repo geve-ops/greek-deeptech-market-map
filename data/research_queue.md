@@ -8,11 +8,12 @@
 - Greek link thin: Axelera AI (Greek CTO, no Greek office), Intryc, Navenio, Keragon, Causaly (HQ unknown), Hoplon AI, Pinepeak, Pleioflow, Anodyne Nanotech, Koios Care (Greek investors and team names; nationality not stated), SquareDev (Greek group QnR owns the majority)
 - Core Innovation: assumed to be the group at core-innovation.com (CORE Innovation Centre, Chalkida)
 - Pallma AI: pallma.ai redirects to Verno Labs; rebrand not confirmed by a press source
-- Funding not found: Gizelis Robotics, Altus LSA, SAS Technology, Satways, Attisat, Purposeful (deal value), ClearDrop, Pleioflow (round date), Code BGP (acquisition date)
-- Aggregator-only figures: Circuits Integrated, Neurohive, Pinepeak, Hoplon AI
+- Funding not found: Gizelis Robotics, Altus LSA, SAS Technology, Satways, Attisat, Purposeful (deal value), Pleioflow (round date)
+- Founding year not found: ClearDrop
+- Aggregator-only figures: Circuits Integrated, Hoplon AI, ClearDrop (USD 700K), Robenso (date); Neurohive, Pinepeak and Pleioflow amounts left UNVERIFIED
 
 ## No logo on the map (name shown as text)
-Think Silicon (site redirects to Applied Materials), Better Origin (site unreachable), Delian Alliance (official site not found), Augmenta (acquired, no standalone site), Aether Aeronautics (official site not found), Purposeful, Achira AI (only a plain favicon), Terra Robotics (site fails TLS), Pinepeak, Attisat, Seervision (now Q-SYS), Code BGP (now Cisco).
+Think Silicon (site redirects to Applied Materials), Augmenta (acquired; site redirects to Raven), Achira AI (only a plain favicon), Attisat (site fails a certificate check), Seervision (now Q-SYS), Code BGP (now Cisco).
 
 ## Excluded after checking (17)
 No Greek link found: Caristo Diagnostics, Edra, Astrato Analytics, NeuroVirt (Cypriot founder), Electryone AI (Cypriot founders), Xatoms (Toronto, Slovak founders), Averywell (Manchester), PolyModels Hub (London; Greek investor only), NOFire AI (US-listed devops software).

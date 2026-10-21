@@ -789,6 +789,45 @@ upd("Mind The Hack", website="https://mindthehack.ai/")
 upd("Hoplon AI", website="https://hoplonai.com/")
 upd("Satways", website="https://www.satways.net/")
 
+
+# ---------------- Eighth pass: remaining gaps (2026-10-21) ----------------
+upd("Velos Rotors", founded="2011 (design work began; first product Velos 880 in 2014, per company About page)",
+    hq_greek_link="Xylokastro, Greece (Velos Rotors SA; Elevate Greece registry describes it as Greek-founded)",
+    source_link="https://tech.eu/2023/04/06/velos-rotors-snags-2-million-to-help-drone-helicopter-production-take-off | https://registry.elevategreece.gov.gr/company/velos-rotors | https://velos-rotors.com/about-us/")
+upd("Aether Aeronautics", founded="2018 (company About page: established in Chania, Crete)", website="https://www.aether-aeronautics.com/",
+    source_link="https://www.aether-aeronautics.com/about-us | https://www.parapolitika.gr/zoi/article/1111770/stratigiki-sunergasia-tou-omilou-efa-group-me-tin-elliniki-aether-aeronautics-pc-gia-tin-anaptuxi-enaerion-stohon/app/ | https://registry.elevategreece.gov.gr/company/aether-aeronautics-pc",
+    notes="Aether Aeronautic S.A.; aether-aero.com is an unrelated eVTOL company. NAMFI suitability certification reported for PNS-1 and NMS-2 targets (Greek-language report). EFA Group partnership.")
+upd("Core Innovation and Technology", founded="2016 (company About page; CORE Innovation Centre founded 2020)",
+    hq_greek_link="Offices in south Athens (about 70 people per the company); CORE Innovation Centre in Chalkida",
+    what_they_do="Industry 4.0 engineering and AI: COREbeat predictive-maintenance platform, Greek Smart Factory testbed",
+    source_link="https://www.core-innovation.com/about | https://portal.effra.eu/organisation/12520 | https://cordis.europa.eu/project/id/101079180",
+    notes="Identity now confirmed by the company's own About page (CORE Innovation Group, COREbeat, Greek Smart Factory).")
+upd("Attisat", founded="1997 (Greek Space Ecosystem Catalogue)",
+    hq_greek_link="Attica, Greece (ATTISAT Attica Satellite Antennas S.A.; Moschato/Kallithea listings)",
+    source_link="https://www.space-ecosystem.gr/organisations/attisat/ | https://artes.esa.int/contractors/attisat | https://esa.int/Applications/Connectivity_and_Secure_Communications/Invisible_satellite_dishes_to_preserve_Athens_skyline")
+upd("ClearDrop", last_round_amount="USD 700K (Signalbase, aggregator)", last_round_date="2026-06",
+    stage="Seed (label UNVERIFIED)", website="https://cleardrop.tech/",
+    investors="Genesis Ventures (portfolio listing); Obratori (portfolio listing per Signalbase)",
+    hq_greek_link="Technology developed with IEMN, University of Lille and CNRS (company site); Greek link: Genesis Ventures portfolio and CEO Nikos Christopoulos (nationality not stated); HQ UNVERIFIED",
+    source_link="https://www.genesis-ventures.vc/our-portfolio | https://cleardrop.tech/ | https://www.trysignalbase.com/news/funding/cleardrop-raises-700k-funding | https://athenstechcircle.beehiiv.com/p/never-marry-your-ideas-or-assumptions-nikos-christopoulos-ceo-cleardrop",
+    verification_status="Genesis listing and site verified; round from one aggregator; founding year NOT FOUND")
+upd("Augmenta", website="https://www.augmenta.ag/ (redirects to the Raven Industries product page)")
+upd("Delian Alliance Industries", website="https://delian.ai/")
+upd("Better Origin", website="https://betterorigin.co.uk/")
+upd("Purposeful", website="https://purposeful.eu/",
+    hq_greek_link="Greece; listed in the Elevate Greece registry as PURPOSEFUL IKE; described as a Greek startup by Zepos & Yannopoulos")
+upd("Terra Robotics", website="https://terrarobotics.io/", hq_greek_link="Thessaloniki, Greece (Ptolemeon 29A; Elevate Greece registry)")
+upd("Pinepeak", website="https://www.pinepeak.co.uk/",
+    hq_greek_link="Cambridge, UK (University of Cambridge Founders portfolio); two founders are Greek per The Next Web",
+    source_link="https://thenextweb.com/news/pinepeak-wildfire-simulator-predicts-fire-risks | https://www.genesis-ventures.vc/our-portfolio | https://founders.cam.ac.uk/portfolio/pinepeak/ | https://www.premieralts.com/companies/pinepeak")
+
+
+# ---------------- Ninth pass: round dates ----------------
+upd("Navenio", last_round_date="2020 or 2021 (sources differ: Global Venturing May 2020, CB Insights Dec 2021)",
+    investors="Oxford Science Enterprises (lead); QBN Capital; Big Pi Ventures; Future Planet Capital; University of Oxford",
+    source_link="https://businesscloud.co.uk/news/indoor-gps-scaleup-navenio-navigates-to-9-5m/ | https://en.wikipedia.org/wiki/Niki_Trigoni | https://www.cbinsights.com/company/navenio/financials")
+upd("Robenso", last_round_date="2025-02 (VCBacked, aggregator)")
+
 for i, r in enumerate(R, 1):
     r["company_id"] = "GRDT-%03d" % i
 

@@ -207,5 +207,30 @@
  "SquareDev": {
   "file": "squaredev__0_icon.png",
   "mode": "icon"
+ },
+ "Aether Aeronautics": {
+  "file": "aether-aeronautics__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Better Origin": {
+  "file": "better-origin__0_logo-img.png",
+  "mode": "wide",
+  "dark_bg": true
+ },
+ "Purposeful": {
+  "file": "purposeful__0_icon.png",
+  "mode": "icon"
+ },
+ "Delian Alliance Industries": {
+  "file": "delian__0_icon.png",
+  "mode": "icon"
+ },
+ "Terra Robotics": {
+  "file": "terra-robotics__0_logo-img.png",
+  "mode": "wide"
+ },
+ "Pinepeak": {
+  "file": "pinepeak__1_logo-img.png",
+  "mode": "wide"
  }
 }

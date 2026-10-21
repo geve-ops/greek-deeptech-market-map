@@ -425,9 +425,45 @@
   ]
  },
  "Aether Aeronautics": {
-  "status": "no logo file",
-  "site": "https://www.aether-aero.com/",
-  "files": []
+  "status": "ok",
+  "site": "https://www.aether-aeronautics.com/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://static.wixstatic.com/media/3bc80a_c6e3a1ac5abf4575b5fa622fb06833d9~mv2.png/v1/fill/w_198,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/aetheraeronauticslogoboldgrey%20%20-%20%CE%91%CE%BD%CF%84%CE%B9%CE%B3%CF%81%CE%B1%CF%86%CE%AE_PNG.png",
+    "kind": "logo-img",
+    "bytes": 12534,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://static.wixstatic.com/media/3bc80a_c6e3a1ac5abf4575b5fa622fb06833d9~mv2.png/v1/fill/w_174,h_75,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/aetheraeronauticslogoboldgrey%20%20-%20%CE%91%CE%BD%CF%84%CE%B9%CE%B3%CF%81%CE%B1%CF%86%CE%AE_PNG.png",
+    "kind": "logo-img",
+    "bytes": 10835,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.jpeg",
+    "url": "https://static.wixstatic.com/media/3bc80a_03618b2066544aae81c7337fe1796c2f%7Emv2.jpeg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/3bc80a_03618b2066544aae81c7337fe1796c2f%7Emv2.jpeg",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 7343,
+    "type": "image/jpeg"
+   },
+   {
+    "file": "3_icon.jpeg",
+    "url": "https://static.wixstatic.com/media/3bc80a_03618b2066544aae81c7337fe1796c2f%7Emv2.jpeg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/3bc80a_03618b2066544aae81c7337fe1796c2f%7Emv2.jpeg",
+    "kind": "icon:icon",
+    "bytes": 7931,
+    "type": "image/jpeg"
+   },
+   {
+    "file": "4_icon.jpeg",
+    "url": "https://static.wixstatic.com/media/3bc80a_03618b2066544aae81c7337fe1796c2f%7Emv2.jpeg/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/3bc80a_03618b2066544aae81c7337fe1796c2f%7Emv2.jpeg",
+    "kind": "icon:shortcut icon",
+    "bytes": 1294,
+    "type": "image/jpeg"
+   }
+  ]
  },
  "Ucandrone": {
   "status": "ok",
@@ -1142,9 +1178,37 @@
   ]
  },
  "Better Origin": {
-  "status": "site not found",
-  "tried": [
-   "betterorigin.com"
+  "status": "ok",
+  "site": "https://betterorigin.co.uk/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://betterorigin.co.uk/wp-content/uploads/2020/05/logo2LONGB.svg",
+    "kind": "logo-img",
+    "bytes": 4429,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://betterorigin.co.uk/wp-content/uploads/2020/05/logo2Blk.svg",
+    "kind": "logo-img",
+    "bytes": 1491,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://betterorigin.co.uk/wp-content/uploads/2020/05/logo2LONGB.svg",
+    "kind": "logo-img",
+    "bytes": 4429,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://betterorigin.co.uk/wp-content/uploads/2020/05/logo2.svg",
+    "kind": "logo-img",
+    "bytes": 4305,
+    "type": "image/svg+xml"
+   }
   ]
  },
  "Centaur Analytics": {
@@ -1620,23 +1684,49 @@
   ]
  },
  "Purposeful": {
-  "status": "site not found",
-  "tried": [
-   "purposeful.ai",
-   "purposeful.gr",
-   "purposeful.bio"
+  "status": "ok",
+  "site": "https://purposeful.eu/",
+  "files": [
+   {
+    "file": "0_icon.png",
+    "url": "https://purposeful.eu/wp-content/uploads/2021/10/cropped-purposeful-icon-180x180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 11789,
+    "type": "image/png"
+   },
+   {
+    "file": "1_icon.png",
+    "url": "https://purposeful.eu/wp-content/uploads/2021/10/cropped-purposeful-icon-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 1697,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://purposeful.eu/wp-content/uploads/2021/10/cropped-purposeful-icon-192x192.png",
+    "kind": "icon:icon",
+    "bytes": 12667,
+    "type": "image/png"
+   }
   ]
  },
  "Delian Alliance Industries": {
   "status": "ok",
-  "site": "https://delian.io/",
+  "site": "https://delian.ai/",
   "files": [
    {
-    "file": "0_icon.ico",
-    "url": "https://delian.io/favicon.ico",
+    "file": "0_icon.png",
+    "url": "https://framerusercontent.com/images/V5vEaRz8pBDuH4ThHEXwAg1jns.png",
     "kind": "icon:icon",
-    "bytes": 5558,
-    "type": "image/vnd.microsoft.icon"
+    "bytes": 4119,
+    "type": "image/png"
+   },
+   {
+    "file": "1_icon.png",
+    "url": "https://framerusercontent.com/images/V5vEaRz8pBDuH4ThHEXwAg1jns.png",
+    "kind": "icon:icon",
+    "bytes": 4119,
+    "type": "image/png"
    }
   ]
  },
@@ -1973,11 +2063,58 @@
   ]
  },
  "Terra Robotics": {
-  "status": "site not found",
-  "tried": [
-   "terra-robotics.com",
-   "terrarobotics.gr",
-   "terra-robotics.gr"
+  "status": "ok",
+  "site": "https://terrarobotics.io/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://cdn.prod.website-files.com/69afdb7912c45fc446ede431/69f07320a85d61229d30251b_Word_Mark_White.svg",
+    "kind": "logo-img",
+    "bytes": 4306,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://cdn.prod.website-files.com/69afdb7912c45fc446ede431/69f07320a85d61229d30251c_Word_Mark_Colour.svg",
+    "kind": "logo-img",
+    "bytes": 4386,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://cdn.prod.website-files.com/69afdb7912c45fc446ede431/69f99f5e0a465937fbbfd18d_Logo_Mark_White.png",
+    "kind": "logo-img",
+    "bytes": 1290,
+    "type": "image/png"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://cdn.prod.website-files.com/69afdb7912c45fc446ede431/69f99f5e0a465937fbbfd18d_Logo_Mark_White.png",
+    "kind": "logo-img",
+    "bytes": 1290,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://cdn.prod.website-files.com/69afdb7912c45fc446ede431/6a267dda834d1d8884e190cf_Logo_Mark_Colour_square.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 13679,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://cdn.prod.website-files.com/69afdb7912c45fc446ede431/6a267ddaeb95fb237d161cea_Logo_Mark_Colour_square.png",
+    "kind": "icon:icon",
+    "bytes": 1458,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://cdn.prod.website-files.com/69afdb7912c45fc446ede431/6a267de84e78791f62b13766_Logo_Mark_White_square.png",
+    "kind": "icon:icon",
+    "bytes": 1159,
+    "type": "image/png"
+   }
   ]
  },
  "Neurohive": {
@@ -2063,12 +2200,44 @@
   ]
  },
  "Pinepeak": {
-  "status": "site not found",
-  "tried": [
-   "pinepeak.co",
-   "pinepeak.io",
-   "pinepeak.com",
-   "pinepeak.earth"
+  "status": "ok",
+  "site": "https://www.pinepeak.co.uk/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://static.wixstatic.com/media/91d11d_6f61eef807df46098cc6e34f816c1cf6~mv2.png/v1/crop/x_2,y_0,w_1598,h_376/fill/w_160,h_37,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/brandmark-design.png",
+    "kind": "logo-img",
+    "bytes": 8069,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://static.wixstatic.com/media/91d11d_14732c65c8db411182c99ceec3aecf50~mv2.png/v1/fill/w_188,h_44,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/91d11d_14732c65c8db411182c99ceec3aecf50~mv2.png",
+    "kind": "logo-img",
+    "bytes": 4651,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://static.wixstatic.com/media/91d11d_b9cdeb44f100431ca9e8f2f9479b1f7b%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/91d11d_b9cdeb44f100431ca9e8f2f9479b1f7b%7Emv2.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 4196,
+    "type": "image/png"
+   },
+   {
+    "file": "3_icon.png",
+    "url": "https://static.wixstatic.com/media/91d11d_b9cdeb44f100431ca9e8f2f9479b1f7b%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/91d11d_b9cdeb44f100431ca9e8f2f9479b1f7b%7Emv2.png",
+    "kind": "icon:icon",
+    "bytes": 4553,
+    "type": "image/png"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://static.wixstatic.com/media/91d11d_b9cdeb44f100431ca9e8f2f9479b1f7b%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/91d11d_b9cdeb44f100431ca9e8f2f9479b1f7b%7Emv2.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 1131,
+    "type": "image/png"
+   }
   ]
  },
  "Mind The Hack": {
