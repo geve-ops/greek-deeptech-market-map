@@ -2477,5 +2477,229 @@
     "type": "image/jpeg"
    }
   ]
+ },
+ "QRBIT": {
+  "status": "ok",
+  "site": "https://qrbit.gr/",
+  "files": [
+   {
+    "file": "0_icon.png",
+    "url": "https://qrbit.gr/wp-content/uploads/2025/07/cropped-QR-04-180x180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 3486,
+    "type": "image/png"
+   },
+   {
+    "file": "1_icon.png",
+    "url": "https://qrbit.gr/wp-content/uploads/2025/07/cropped-QR-04-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 620,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://qrbit.gr/wp-content/uploads/2025/07/cropped-QR-04-192x192.png",
+    "kind": "icon:icon",
+    "bytes": 3700,
+    "type": "image/png"
+   }
+  ]
+ },
+ "SolidKosmos": {
+  "status": "ok",
+  "site": "https://solidkosmos.gr/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://solidkosmos.gr/wp-content/uploads/2025/01/solidokosmos_white_logo_-1024x228.png",
+    "kind": "logo-img",
+    "bytes": 68264,
+    "type": "image/png"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://solidkosmos.gr/wp-content/uploads/2025/01/solidokosmos_white_logo_-300x67.png",
+    "kind": "logo-img",
+    "bytes": 11172,
+    "type": "image/png"
+   },
+   {
+    "file": "2_logo-img.webp",
+    "url": "https://solidkosmos.gr/wp-content/uploads/2025/01/si-Cluster-logo-2.webp",
+    "kind": "logo-img",
+    "bytes": 7392,
+    "type": "image/webp"
+   },
+   {
+    "file": "3_logo-img.webp",
+    "url": "https://solidkosmos.gr/wp-content/uploads/2025/01/logo-inverse-bb9fc8db.webp",
+    "kind": "logo-img",
+    "bytes": 16186,
+    "type": "image/webp"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://solidkosmos.gr/wp-content/uploads/2025/03/cropped-logo-13b-180x180.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 7267,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "https://solidkosmos.gr/wp-content/uploads/2025/03/cropped-logo-13b-32x32.png",
+    "kind": "icon:icon",
+    "bytes": 992,
+    "type": "image/png"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://solidkosmos.gr/wp-content/uploads/2025/03/cropped-logo-13b-192x192.png",
+    "kind": "icon:icon",
+    "bytes": 7843,
+    "type": "image/png"
+   }
+  ]
+ },
+ "Trimsignal": {
+  "status": "ok",
+  "site": "https://www.trimsignal.com/",
+  "files": [
+   {
+    "file": "0_logo-img.jpg",
+    "url": "https://static.wixstatic.com/media/5fdbf1_1014cba41d6b4f4f903664c3dd9a61ef~mv2.jpg/v1/fill/w_48,h_46,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo_mono.jpg",
+    "kind": "logo-img",
+    "bytes": 1815,
+    "type": "image/jpeg"
+   },
+   {
+    "file": "1_icon.png",
+    "url": "https://static.wixstatic.com/media/5fdbf1_6d218db2e416452bac35ffa08d6ee5fe%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/5fdbf1_6d218db2e416452bac35ffa08d6ee5fe%7Emv2.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 15269,
+    "type": "image/png"
+   },
+   {
+    "file": "2_icon.png",
+    "url": "https://static.wixstatic.com/media/5fdbf1_6d218db2e416452bac35ffa08d6ee5fe%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/5fdbf1_6d218db2e416452bac35ffa08d6ee5fe%7Emv2.png",
+    "kind": "icon:icon",
+    "bytes": 17667,
+    "type": "image/png"
+   },
+   {
+    "file": "3_icon.png",
+    "url": "https://static.wixstatic.com/media/5fdbf1_6d218db2e416452bac35ffa08d6ee5fe%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/5fdbf1_6d218db2e416452bac35ffa08d6ee5fe%7Emv2.png",
+    "kind": "icon:shortcut icon",
+    "bytes": 2318,
+    "type": "image/png"
+   }
+  ]
+ },
+ "EMTech Space": {
+  "status": "ok",
+  "site": "https://emtech.space/",
+  "files": [
+   {
+    "file": "0_logo-img.svg",
+    "url": "https://emtech.space/wp-content/uploads/2025/12/logo_white_big.svg",
+    "kind": "logo-img",
+    "bytes": 9291,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "1_logo-img.svg",
+    "url": "https://emtech.space/wp-content/uploads/2025/12/logo_blue_small.svg",
+    "kind": "logo-img",
+    "bytes": 390,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "2_logo-img.svg",
+    "url": "https://emtech.space/wp-content/uploads/2025/12/logo_color.svg",
+    "kind": "logo-img",
+    "bytes": 9130,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "3_logo-img.svg",
+    "url": "https://emtech.space/wp-content/uploads/2025/12/logo_white_big.svg",
+    "kind": "logo-img",
+    "bytes": 9291,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "4_icon.png",
+    "url": "https://emtech.space/wp-content/themes/emtech/icons/apple-touch-icon.png",
+    "kind": "icon:apple-touch-icon",
+    "bytes": 5725,
+    "type": "image/png"
+   },
+   {
+    "file": "5_icon.svg",
+    "url": "https://emtech.space/wp-content/themes/emtech/icons/favicon.svg",
+    "kind": "icon:icon",
+    "bytes": 673,
+    "type": "image/svg+xml"
+   },
+   {
+    "file": "6_icon.png",
+    "url": "https://emtech.space/wp-content/themes/emtech/icons/favicon-96x96.png",
+    "kind": "icon:icon",
+    "bytes": 2829,
+    "type": "image/png"
+   }
+  ]
+ },
+ "OQ Technology": {
+  "status": "no logo file",
+  "site": "https://oqtechnology.com/",
+  "files": []
+ },
+ "Solmeyea": {
+  "status": "ok",
+  "site": "https://www.solmeyea.com/",
+  "files": [
+   {
+    "file": "0_logo-img.png",
+    "url": "https://images.squarespace-cdn.com/content/v1/695388f7252f4f3014513102/a388f8e3-ee9d-4419-945b-77f4ce2b32ba/Solmeyea+logo-horizontal-black-01+%281%29.png?format=1500w",
+    "kind": "logo-img",
+    "bytes": 6290,
+    "type": "image/webp"
+   },
+   {
+    "file": "1_logo-img.png",
+    "url": "https://images.squarespace-cdn.com/content/v1/695388f7252f4f3014513102/1ec33004-0c2a-4e71-8e94-0906c5e2f073/Solmeyea+logo-horizontal-black-01+%281%29.png?format=1500w",
+    "kind": "logo-img",
+    "bytes": 6290,
+    "type": "image/webp"
+   },
+   {
+    "file": "2_logo-img.png",
+    "url": "https://images.squarespace-cdn.com/content/v1/695388f7252f4f3014513102/a388f8e3-ee9d-4419-945b-77f4ce2b32ba/Solmeyea+logo-horizontal-black-01+%281%29.png?format=1500w",
+    "kind": "logo-img",
+    "bytes": 6290,
+    "type": "image/webp"
+   },
+   {
+    "file": "3_logo-img.png",
+    "url": "https://images.squarespace-cdn.com/content/v1/695388f7252f4f3014513102/1ec33004-0c2a-4e71-8e94-0906c5e2f073/Solmeyea+logo-horizontal-black-01+%281%29.png?format=1500w",
+    "kind": "logo-img",
+    "bytes": 6290,
+    "type": "image/webp"
+   },
+   {
+    "file": "4_icon.ico",
+    "url": "https://assets.squarespace.com/universal/default-favicon.ico",
+    "kind": "icon:icon",
+    "bytes": 6518,
+    "type": "text/plain"
+   },
+   {
+    "file": "5_icon.png",
+    "url": "http://static1.squarespace.com/static/695388f7252f4f3014513102/t/6953a10120d1d30725e3c089/1767088385443/Solmeyea+logo-horizontal-black-01+%281%29.png?format=1500w",
+    "kind": "icon:og",
+    "bytes": 6290,
+    "type": "image/webp"
+   }
+  ]
  }
 }

@@ -2,7 +2,7 @@
 GRDT-001,Perceptual Robotics,Include,CONFIRMED,3,3,3,4|5.3,3,investing for purpose,2,~GBP 4M (~USD 5.3M),2026-07
 GRDT-002,Acumino,Include,CONFIRMED,6,6,6,11.7,4,radar ventures,3,USD 11.7M,2026-06-24
 GRDT-003,Progressive Robotics,Include,CONFIRMED,3,2,2,1.55,1,marathon venture capital,1,EUR 1.55M,2025-01
-GRDT-004,Velos Rotors,Include,CONFIRMED,3,3,3,2,3,marathon venture capital,2,USD 2M,2023-04
+GRDT-004,Velos Rotors,Include,CONFIRMED,3,2,2,2,2,marathon venture capital,2,USD 2M,2023-04
 GRDT-005,Robenso,Include,CONFIRMED,2,2,2,500,1,helidoni group,2,EUR 500K,"2025-02 (VCBacked, aggregator)"
 GRDT-006,Augmenta,Include,CONFIRMED,2,2,2,110,1,cnh industrial,1,"Acquisition, enterprise value USD 110M",2023-03
 GRDT-007,Gizelis Robotics,Borderline,CONFIRMED,2,2,2,,0,,0,Not found,Not found
@@ -30,7 +30,7 @@ GRDT-028,Caristo Diagnostics,Exclude,CONFIRMED,1,1,1,13|16.3,1,oxford science en
 GRDT-029,Koios Care,Borderline,CONFIRMED,3,3,3,1,3,evercurious vc,1,EUR 1M,2025-06
 GRDT-030,Delian Alliance Industries,Include,CONFIRMED,2,2,2,14,2,air street capital and marathon venture capital,2,USD 14M,2025-07
 GRDT-031,Hack The Box,Borderline,CONFIRMED,2,2,2,55|61.6,2,carlyle,2,USD 55M (EUR 61.6M),2023-01
-GRDT-032,Sotiria Technology,Include,CONFIRMED,3,3,3,100,3,angels,0,USD 100K grant (DIANA),2023-11
+GRDT-032,Sotiria Technology,Include,CONFIRMED,3,2,2,100,2,angels,0,USD 100K grant (DIANA),2023-11
 GRDT-033,Prisma Electronics,Include,CONFIRMED,2,2,2,10|145,2,,0,"No external round found (company-reported 2024 revenue above EUR 10M, 145+ staff)",Not found
 GRDT-034,Open Cosmos (Open Cosmos Aegean),Borderline,CONFIRMED,2,2,2,300,2,lightrock,1,EUR 300M,2026-09
 GRDT-035,PiDust,Hold,CONFIRMED,1,1,1,,0,,0,Not found,Not found
@@ -42,9 +42,9 @@ GRDT-040,Bioemtech,Include,NAME NOT FOUND,1,1,0,200|400,1,metavallon vc,0,EUR 20
 GRDT-041,Feel Therapeutics,Include,CONFIRMED,4,4,4,4,4,metavallon vc,1,USD 4M (May 2022),2022-05 (later notes through 2024)
 GRDT-042,Brainomix,Borderline,CONFIRMED,4,2,2,14|18|18.8,2,parkwalk advisors and boehringer ingelheim venture fund,0,"GBP 14M (USD 18M), later extended to GBP 18.8M (USD 25.4M)",2025-03
 GRDT-043,Achira AI,Include,CONFIRMED,4,3,3,33,2,dimension,2,USD 33M,2025-02 to 2025-04 (sources differ)
-GRDT-044,Causaly,Borderline,CONFIRMED,2,1,1,60|86,1,iconiq growth,1,USD 60M (total USD 86M),2024-07 (UNVERIFIED day)
+GRDT-044,Causaly,Borderline,UNREADABLE,2,0,0,60|86,0,iconiq growth,0,USD 60M (total USD 86M),2024-07 (UNVERIFIED day)
 GRDT-045,Circuits Integrated Hellas,Include,CONFIRMED,2,2,1,,0,evercurious vc,2,Not disclosed,"2026-09-15 (UNVERIFIED, aggregator)"
-GRDT-046,Bota Systems,Borderline,CONFIRMED,3,2,2,2.5|2.4,1,marathon venture capital,2,USD 2.5M (EUR 2.4M),2023-10-02
+GRDT-046,Bota Systems,Borderline,CONFIRMED,3,1,1,2.5|2.4,1,marathon venture capital,1,USD 2.5M (EUR 2.4M),2023-10-02
 GRDT-047,Centaur Analytics,Include,CONFIRMED,4,4,4,3|1.3|2016,4,marathon venture capital,2,USD 3M (earlier USD 1.3M in 2016),"2018-10 (USD 3M round, ImpactAlpha 2018-10-11); first seed 2016-09"
 GRDT-048,Code BGP,Include,CONFIRMED,5,1,1,,0,cisco. earlier: marathon venture capital,0,"Acquisition, terms undisclosed",2023-08 (acquisition by Cisco)
 GRDT-049,iCOMAT,Borderline,CONFIRMED,2,2,2,22.5|17.6,2,,0,USD 22.5M (about GBP 17.6M),2024-06
@@ -69,11 +69,11 @@ GRDT-067,Pinepeak,Borderline,CONFIRMED,4,4,4,,0,genesis ventures,2,UNVERIFIED (a
 GRDT-068,Mind The Hack,Include,CONFIRMED,3,2,2,2.8,2,deep capital group,1,EUR 2.8M,2025-10-07
 GRDT-069,Hoplon AI,Borderline,CONFIRMED,3,3,2,1,3,haatch,2,USD 1M,2026-01 to 2026-05 (sources differ)
 GRDT-070,Satways,Borderline,CONFIRMED,2,1,1,,0,,0,Not found,Not found
-GRDT-071,Attisat,Borderline,CONFIRMED,3,2,2,,0,,0,Not found,Not found
+GRDT-071,Attisat,Borderline,UNREADABLE,3,0,0,,0,,0,Not found,Not found
 GRDT-072,Seervision,Borderline,CONFIRMED,2,1,1,,0,q-sys,1,Undisclosed,2023-06
 GRDT-073,Intelistyle,Borderline,CONFIRMED,2,2,2,534|600,1,metavallon vc,2,~EUR 534K (USD 600K),2018-11
 GRDT-074,Pleioflow,Borderline,CONFIRMED,3,2,2,,0,genesis ventures,1,"UNVERIFIED (PitchBook lists USD 1.74M, undated; not re-confirmed)",UNVERIFIED
-GRDT-075,Krotos,Exclude,CONFIRMED,2,2,2,,0,metavallon vc,1,Seven figures (amount undisclosed),2022-02
+GRDT-075,Krotos,Exclude,CONFIRMED,2,1,1,,0,metavallon vc,0,Seven figures (amount undisclosed),2022-02
 GRDT-076,Dataphoria,Exclude,CONFIRMED,2,2,2,335|390,2,investing for purpose,2,EUR 335K (USD 390K),2026-09-18
 GRDT-077,Mobito,Exclude,CONFIRMED,2,1,1,1,1,loggerhead ventures,1,EUR 1M,2025-06
 GRDT-078,NeuroVirt,Exclude,CONFIRMED,2,2,2,1.5,2,genesis ventures,0,USD 1.5M (aggregator),UNVERIFIED
@@ -81,3 +81,9 @@ GRDT-079,Electryone AI,Exclude,CONFIRMED,2,1,1,400|33,1,33east venture capital,1
 GRDT-080,Xatoms,Exclude,CONFIRMED,1,1,1,3,1,quantacet,1,USD 3M,2025-06
 GRDT-081,Averywell,Exclude,CONFIRMED,2,2,2,,0,genesis ventures,2,Not disclosed,2024-04
 GRDT-082,SquareDev,Borderline,CONFIRMED,3,3,3,1|1.18,3,quality & reliability s.a.,1,EUR 1M investment (Athens Tech Circle); USD 1.18M for a majority stake (CB Insights),2025-03
+GRDT-083,QRBIT,Include,CONFIRMED,3,3,3,,0,ntua and iccs,0,Not disclosed,UNVERIFIED
+GRDT-084,SolidKosmos,Include,CONFIRMED,3,1,1,,0,esa bic greece,1,Not disclosed,UNVERIFIED
+GRDT-085,Trimsignal,Include,CONFIRMED,3,3,3,,0,esa bic greece,1,Not disclosed,UNVERIFIED
+GRDT-086,EMTech Space,Include,CONFIRMED,3,2,1,,0,,0,Not found,Not found
+GRDT-087,OQ Technology,Borderline,CONFIRMED,3,2,2,25|13|09,2,european investment bank,1,EUR 25M EIB venture debt (EUR 13M Series A in 2022-09),2026-02-25
+GRDT-088,Solmeyea,Include,CONFIRMED,4,4,4,3.2|3.3,1,eic accelerator,2,"USD 3.2M-3.3M total, mostly EU grants (aggregators)",UNVERIFIED

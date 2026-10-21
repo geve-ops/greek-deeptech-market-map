@@ -232,5 +232,25 @@
  "Pinepeak": {
   "file": "pinepeak__1_logo-img.png",
   "mode": "wide"
+ },
+ "QRBIT": {
+  "file": "qrbit__0_icon.png",
+  "mode": "icon"
+ },
+ "SolidKosmos": {
+  "file": "solidkosmos__6_icon.png",
+  "mode": "icon"
+ },
+ "Trimsignal": {
+  "file": "trimsignal__0_logo-img.png",
+  "mode": "icon"
+ },
+ "EMTech Space": {
+  "file": "emtech-space__4_icon.png",
+  "mode": "icon"
+ },
+ "Solmeyea": {
+  "file": "solmeyea__0_logo-img.png",
+  "mode": "wide"
  }
 }

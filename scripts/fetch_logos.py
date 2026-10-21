@@ -78,6 +78,12 @@ C = {
  "Think Silicon": ("think-silicon", "think", ["think-silicon.com"]),
  "Better Origin": ("better-origin", "better origin", ["betterorigin.co.uk"]),
  "Delian Alliance Industries": ("delian", "delian", ["delian.ai"]),
+ "QRBIT": ("qrbit", "qrbit", ["qrbit.gr"]),
+ "SolidKosmos": ("solidkosmos", "solidkosmos", ["solidkosmos.gr"]),
+ "Trimsignal": ("trimsignal", "trimsignal", ["trimsignal.com"]),
+ "EMTech Space": ("emtech-space", "emtech", ["emtech.space"]),
+ "OQ Technology": ("oq-technology", "oq", ["oqtechnology.com"]),
+ "Solmeyea": ("solmeyea", "solmeyea", ["solmeyea.com"]),
 }
 
 

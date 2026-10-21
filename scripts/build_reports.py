@@ -82,17 +82,17 @@ def bar(ax, items, color, title):
 # ---------------------------------------------------------------- analysis
 with PdfPages(OUT + "/greek_deeptech_analysis.pdf") as pdf:
     TOTAL = 3
-    pg = Page(pdf, "Greek Deep Tech: Analysis", "What is crowded, what is missing, how it is funded, who is active. Based on the 63 mapped companies in the dataset.")
+    pg = Page(pdf, "Greek Deep Tech: Analysis", "What is crowded, what is missing, how it is funded, who is active. Based on the 69 mapped companies in the dataset.")
     pg.h("Read this first")
-    pg.p("The dataset has 82 rows: 63 mapped (31 Include, 32 Borderline), 2 on Hold because nothing current could be found (PiDust, QUBITECH), and 17 excluded. "
-         "Every number below comes from those rows or from the sources listed on page 3. The 63 companies were found by sweeping VC portfolios and news lists, "
+    pg.p("The dataset has 88 rows: 69 mapped (36 Include, 33 Borderline), 2 on Hold because nothing current could be found (PiDust, QUBITECH), and 17 excluded. "
+         "Every number below comes from those rows or from the sources listed on page 3. The 69 companies were found by sweeping VC portfolios, news lists and the ESA BIC Greece incubator, "
          "so they are a sample of the ecosystem, not a census. Counts show where evidence was found, not market share.")
     pg.h("Shape of the map")
     gs = pg.fig.add_axes([0.24, 0.5, 0.26, 0.19])
-    bar(gs, [("Robotics & Drones", 13), ("Health & Biotech", 13), ("AI & ML", 11), ("Space & Defense", 9),
-             ("Energy & Climate", 7), ("Semiconductors", 5), ("Industrial & Mfg", 5), ("Quantum", 0)], PURPLE, "Companies by category")
+    bar(gs, [("Robotics & Drones", 13), ("Health & Biotech", 13), ("AI & ML", 11), ("Space & Defense", 11),
+             ("Energy & Climate", 8), ("Semiconductors", 7), ("Industrial & Mfg", 5), ("Quantum", 1)], PURPLE, "Companies by category")
     gs2 = pg.fig.add_axes([0.7, 0.5, 0.22, 0.19])
-    bar(gs2, [("Pre-seed / seed", 29), ("Series A and later", 15), ("Stage not found", 14), ("Exited", 5)], BLUE, "Companies by stage")
+    bar(gs2, [("Pre-seed / seed", 30), ("Series A and later", 16), ("No round found", 18), ("Exited", 5)], BLUE, "Companies by stage")
     pg.y = 0.48 * H - 0.0
     pg.p("Stage is read from the last round on record. Five exits sit on the map as context: Think Silicon (acquired by Applied Materials, 2020), "
          "MarineTraffic (Kpler, 2023), Augmenta (CNH Industrial, 2023, enterprise value USD 110M), Seervision (Q-SYS, announced 2023) and Code BGP (Cisco, undated).")
@@ -109,26 +109,23 @@ with PdfPages(OUT + "/greek_deeptech_analysis.pdf") as pdf:
 
     pg = Page(pdf, "Greek Deep Tech: Analysis", "Gaps and funding patterns")
     pg.h("What is missing")
-    pg.p("Quantum: no verified venture-backed Greek company. PiDust (Patras, 2019) has only a 2020 source; QUBITECH is a single-source mention. Both are on Hold. Xatoms (AI and quantum chemistry, backed by Genesis Ventures) was checked and is a Toronto company with Slovak founders, so it is excluded. "
-         "A vendor guide (Quantum Zeitgeist) says research bodies lead.", bullet="-", indent=0.2)
-    pg.p("Space: only two Greek-headquartered space companies were found, Prisma Electronics (Alexandroupolis; company-reported revenue above EUR 10M, in talks with investment funds) and Attisat (Athens satellite antennas), and neither has disclosed venture funding. "
-         "Demand exists: Greece announced a EUR 350M Hellas-Space 2.0 programme in August 2026, and Open Cosmos Aegean won a EUR 60M contract. "
-         "But those flow to foreign-headquartered firms (Open Cosmos is UK-based; OroraTech, checked and excluded, is German).", bullet="-", indent=0.2)
-    pg.p("Semiconductors and hardware: five names (Circuits Integrated Hellas, SolidWatts, Think Silicon, Navenio, Axelera AI). Circuits Integrated's round (Evercurious, 2026-09) rests on one aggregator and has no disclosed amount. "
-         "Axelera AI, the largest round tied to the ecosystem (more than USD 250M, February 2026), is Borderline: its CTO and co-founder is Greek and it hires engineers remotely in Greece, but no Greek office was found and its CEO is Italian.", bullet="-", indent=0.2)
-    pg.p("Energy and climate: seven names (WeatherXM, Better Origin, Centaur Analytics, PlugSecure, Pinepeak, ClearDrop, Neurohive); four are Genesis Ventures portfolio companies. Piq Energy, which appears in Marathon's 2026 round list, is San Francisco-based with no Greek link found, so it is not on the map.", bullet="-", indent=0.2)
-    pg.p("The Series A bridge: of the 15 companies at Series A or later, only 3 list a Greek headquarters (WeatherXM, Delian Alliance Industries, DeepSea Technologies). "
-         "At least 25 of the 63 mapped companies are headquartered outside Greece (for example Perceptual Robotics in the UK, TileDB in the US, Bota Systems in Switzerland). "
+    pg.p("Quantum: one company, QRBIT, a 2025 NTUA spin-off building photonic systems for satellite quantum communications, incubated at ESA BIC Greece with no venture round found. PiDust (Patras, 2019) has only a 2020 source and QUBITECH is a single-source mention; both are on Hold.", bullet="-", indent=0.2)
+    pg.p("Space: three Greek-headquartered space companies are mapped, Prisma Electronics (revenue above EUR 10M, company-reported), Attisat (satellite antennas, since 1997) and EMTech Space (spacecraft simulators, prime contractor of the Hellenic Space Dawn CubeSat), and none has a disclosed venture round. ESA BIC Greece has incubated about 32 space startups, most still pre-funding. "
+         "Demand exists: the EUR 350M Hellas-Space 2.0 programme (August 2026). "
+         "The largest space rounds tied to Greece go to foreign-headquartered firms with Greek bases: Open Cosmos (UK) and OQ Technology (Luxembourg; EUR 25M EIB venture debt in 2026, Greek fund Phaistos co-led its Series A).", bullet="-", indent=0.2)
+    pg.p("Semiconductors and hardware: seven names (Circuits Integrated Hellas, SolidWatts, Think Silicon, Navenio, Axelera AI, and two ESA BIC Greece incubatees, SolidKosmos and Trimsignal). Circuits Integrated's round (Evercurious, 2026-09) rests on one aggregator and has no disclosed amount. "
+         "Axelera AI (more than USD 250M, February 2026) is Borderline: Greek co-founder and CTO, remote hires in Greece, no Greek office.", bullet="-", indent=0.2)
+    pg.p("Energy and climate: eight names (WeatherXM, Better Origin, Centaur Analytics, PlugSecure, Pinepeak, ClearDrop, Neurohive, Solmeyea); four are Genesis Ventures portfolio companies and Solmeyea is mostly EU-grant funded. Piq Energy, which appears in Marathon's 2026 round list, is San Francisco-based with no Greek link found, so it is not on the map.", bullet="-", indent=0.2)
+    pg.p("The Series A bridge: of the 16 companies at Series A or later, only 3 list a Greek headquarters (WeatherXM, Delian Alliance Industries, DeepSea Technologies). "
+         "At least 26 of the 69 mapped companies are headquartered outside Greece (for example Perceptual Robotics in the UK, TileDB in the US, Bota Systems in Switzerland). "
          "Greek capital seeds them; growth capital and headquarters tend to move abroad. HQ is unconfirmed for Causaly, Keragon and Achira AI.", bullet="-", indent=0.2)
     pg.h("Funding patterns")
     pg.p("Marathon Venture Capital data, reported by MoneyBuzz on 2026-10-11, counts USD 435M raised by Greek startups so far in 2026 across 38 rounds. "
          "Axelera AI's round is a large share of that (the article says about 57%). 25 rounds were seed (about USD 38M combined) and eight were Series A (about USD 50M combined).", bullet="-", indent=0.2)
-    pg.p("Totals depend on the source. Athens Tech Circle counts about EUR 1.45B across 100 deals in 2025 including debt and grants; a vendor guide (Ellty) cites EUR 732M. "
-         "Do not compare these without checking their scope.", bullet="-", indent=0.2)
+    pg.p("Totals depend on the source: Athens Tech Circle counts about EUR 1.45B across 100 deals in 2025 including debt and grants; a vendor guide (Ellty) cites EUR 732M.", bullet="-", indent=0.2)
     pg.p("In the dataset, most disclosed seed-stage rounds fall roughly between USD 1M and 8M (mixed currencies, approximate). "
          "Acumino's USD 11.7M seed (June 2026) is the high outlier; Robenso (EUR 500K) and Intelistyle (about EUR 534K, 2018) are at the low end. Series A rounds run from USD 7.7M (WeatherXM) to USD 22.5M (iCOMAT).", bullet="-", indent=0.2)
-    pg.p("Public money matters: the EIB's EUR 20M debt to StiQ (excluded as foodtech), grants at Bitloops and Bioemtech, the NATO Innovation Fund as iCOMAT co-lead, "
-         "and Evercurious VC, anchored by the Hellenic Development Bank of Investments.", bullet="-", indent=0.2)
+    pg.p("Public money matters: EIB debt (StiQ, OQ Technology), EU grants (Solmeyea, Bioemtech), the NATO Innovation Fund (iCOMAT) and HDBI-anchored Evercurious VC.", bullet="-", indent=0.2)
     pg.footer(2, TOTAL)
     pg.save()
 
@@ -183,12 +180,12 @@ with PdfPages(OUT + "/greek_deeptech_thesis_2027.pdf") as pdf:
     pg.p("Evidence: Health & Biotech is level with Robotics as the largest box (13 names each): ORamaVR (USD 4.5M, Jan 2026), Intelligencia, Causaly, Brainomix, Anacalypsis (first Greek VC investment in homegrown drug discovery per Metavallon). "
          "New local capital (Kos, USD 123M, reported June 2026) should lift Series A options. Risk: wet-lab biotech is capital-heavy; I would favor software and instruments over therapeutics at this stage.", indent=0.2, size=9.3)
     pg.h("Where I would not rush")
-    pg.p("Quantum: the dataset has no verified venture-backed Greek company. I would track university spinouts through Metavallon's Brain Gain fund and revisit, rather than force a thesis.", bullet="-", indent=0.2, size=9.3)
+    pg.p("Quantum: one company (QRBIT, an NTUA spin-off) and no venture round yet. I would track university spinouts through Metavallon's Brain Gain fund and ESA BIC Greece and revisit, rather than force a thesis.", bullet="-", indent=0.2, size=9.3)
     pg.p("Pure application-layer AI: the AI box is full of seed-stage apps (Moveo.AI, Bitloops, Keragon). Differentiation is hard to see without product or revenue data this dataset does not hold.", bullet="-", indent=0.2, size=9.3)
     pg.h("What I would check next")
     for t in ["Confirm whether Axelera AI has any Greek team beyond its CTO and remote hires: if so, semiconductors is the strongest talent story; if not, the box stays thin.",
               "Find the Series A and B investors who actually follow Greek seed rounds (Air Street, Molten, 8VC appear) and map their criteria.",
-              "Phase 2 tracker: hiring, funding news and GitHub activity for the 63 mapped names, starting with the robotics and defense groups."]:
+              "Phase 2 tracker: hiring, funding news and GitHub activity for the 69 mapped names, starting with the robotics and defense groups."]:
         pg.p(t, bullet="-", indent=0.2, size=9.3)
     pg.footer(1, 1)
     pg.save()

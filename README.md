@@ -10,7 +10,7 @@ Author: Gerald Velas. Data as of 16 October 2026.
 
 | Deliverable | File |
 |---|---|
-| Research dataset (82 companies screened, 63 mapped) | [data/greek_deeptech_dataset.csv](data/greek_deeptech_dataset.csv) |
+| Research dataset (88 companies screened, 69 mapped) | [data/greek_deeptech_dataset.csv](data/greek_deeptech_dataset.csv) |
 | Market map with logos (PNG, PDF) | [map/greek_deeptech_market_map.png](map/greek_deeptech_market_map.png), [PDF](map/greek_deeptech_market_map.pdf) |
 | Analysis (3 pages) | [reports/greek_deeptech_analysis.pdf](reports/greek_deeptech_analysis.pdf) |
 | Thesis: where I would invest in 2027 (1 page) | [reports/greek_deeptech_thesis_2027.pdf](reports/greek_deeptech_thesis_2027.pdf) |
@@ -38,16 +38,16 @@ One row per company. Columns:
 - Amounts keep the currency of the source. Where sources disagree, the `notes` and `verification_status` columns say so.
 - `github_org` and `linkedin_url` are empty on purpose, reserved for the deal-flow tracker (phase 2).
 
-Current counts: 31 Include, 32 Borderline, 2 Hold, 17 Exclude.
+Current counts: 36 Include, 33 Borderline, 2 Hold, 17 Exclude.
 
 ## Verification
 
-`data/verification_report.csv` checks every source link automatically (company name, amount and lead investor must appear on the cited page). 60 of 63 mapped companies pass; the rest were checked by hand or are flagged. See [data/verification_notes.md](data/verification_notes.md) for what the check does and does not prove, and for the known gaps (founding year now missing for 1 of 63, websites complete).
+`data/verification_report.csv` checks every source link automatically (company name, amount and lead investor must appear on the cited page). 64 of 69 mapped companies pass; the rest were checked by hand or are flagged. See [data/verification_notes.md](data/verification_notes.md) for what the check does and does not prove, and for the known gaps (founding year missing for 1 of 69, websites complete).
 
 ## Method
 
 1. Verified the nine starting companies one by one (website, news, funding, Greek link).
-2. Swept investor portfolios and news lists: Big Pi Ventures, Marathon VC, Metavallon VC, Evercurious VC, Genesis Ventures (its portfolio page), The Recursive, Athens Tech Circle, EU-Startups (read in a browser), Elevate Greece registry, company sites, and aggregators (CB Insights, Seedtable, Caplight) where nothing better existed.
+2. Swept investor portfolios and news lists: Big Pi Ventures, Marathon VC, Metavallon VC, Evercurious VC, Genesis Ventures (its portfolio page), The Recursive, Athens Tech Circle, EU-Startups and the ESA BIC Greece incubator (read in a browser), Elevate Greece registry, company sites, and aggregators (CB Insights, Seedtable, Caplight) where nothing better existed.
 3. Repeated passes on companies with a missing Greek link or source, until each was resolved or documented as unresolved.
 
 Limits:

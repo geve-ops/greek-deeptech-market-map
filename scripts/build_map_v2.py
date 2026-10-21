@@ -37,7 +37,7 @@ STRUCT = [
         ("Drones & unmanned systems", ["Velos Rotors", "Altus LSA", "SAS Technology", "Aether Aeronautics", "Ucandrone"]),
     ]),
     ("Semiconductors & Hardware", [
-        ("Chips, sensing & hardware", ["Axelera AI", "Think Silicon", "Circuits Integrated Hellas", "SolidWatts", "Navenio"]),
+        ("Chips, sensing & hardware", ["Axelera AI", "Think Silicon", "Circuits Integrated Hellas", "SolidWatts", "Navenio", "SolidKosmos", "Trimsignal"]),
     ]),
     ("AI & Machine Learning", [
         ("Enterprise & applied AI", ["Moveo.AI", "Keragon", "Intryc", "Pallma AI", "Satori Analytics", "Seervision", "Intelistyle", "SquareDev"]),
@@ -48,16 +48,16 @@ STRUCT = [
         ("Medtech & digital health", ["ORamaVR", "Corsmed", "Anodyne Nanotech", "Feel Therapeutics", "Bioemtech", "Pleioflow", "Koios Care"]),
     ]),
     ("Space & Defense", [
-        ("Space", ["Prisma Electronics", "Open Cosmos (Open Cosmos Aegean)", "Attisat"]),
+        ("Space", ["Prisma Electronics", "Open Cosmos (Open Cosmos Aegean)", "Attisat", "EMTech Space", "OQ Technology"]),
         ("Defense & security", ["Delian Alliance Industries", "Hack The Box", "Sotiria Technology", "Mind The Hack", "Hoplon AI", "Satways"]),
     ]),
     ("Energy & Climate Tech", [
-        ("Climate, energy & agri tech", ["WeatherXM", "Better Origin", "Centaur Analytics", "PlugSecure", "Pinepeak", "ClearDrop", "Neurohive"]),
+        ("Climate, energy & agri tech", ["WeatherXM", "Better Origin", "Centaur Analytics", "PlugSecure", "Pinepeak", "ClearDrop", "Neurohive", "Solmeyea"]),
     ]),
     ("Industrial & Manufacturing Tech", [
         ("Maritime, materials & industrial AI", ["DeepSea Technologies", "MarineTraffic", "iCOMAT", "Core Innovation and Technology", "Code BGP"]),
     ]),
-    ("Quantum & Advanced Computing", []),
+    ("Quantum & Advanced Computing", [("Quantum communications", ["QRBIT"])]),
 ]
 COLUMNS = [[0, 7], [1, 2], [3, 6], [4, 5]]
 
@@ -72,7 +72,7 @@ cp = os.path.join(ROOT, "logos", "choices.json")
 if os.path.exists(cp) and not TEXT_ONLY:
     choices = json.load(open(cp))
 
-W, H = 26.0, 15.7
+W, H = 26.0, 16.4
 fig = plt.figure(figsize=(W, H), facecolor=BG)
 ax = fig.add_axes([0, 0, 1, 1])
 ax.set_xlim(0, W); ax.set_ylim(0, H); ax.axis("off")
