@@ -15,6 +15,7 @@ Author: Gerald Velas. Data as of 16 October 2026.
 | Analysis (3 pages) | [reports/greek_deeptech_analysis.pdf](reports/greek_deeptech_analysis.pdf) |
 | Thesis: where I would invest in 2027 (1 page) | [reports/greek_deeptech_thesis_2027.pdf](reports/greek_deeptech_thesis_2027.pdf) |
 | Open research items | [data/research_queue.md](data/research_queue.md) |
+| Phase 2: weekly deal-flow tracker for the 69 mapped companies | [geve-ops/vc-dealflow-tracker](https://github.com/geve-ops/vc-dealflow-tracker), [live dashboard](https://geve-ops.github.io/vc-dealflow-tracker/), [monthly briefing](https://geve-ops.github.io/vc-dealflow-tracker/briefing.html) |
 
 ## Scope
 
@@ -36,7 +37,7 @@ One row per company. Columns:
   - **Exclude**: checked and removed (not Greek, or not deep tech). Kept so the decision is on record.
 - `UNVERIFIED` and `Not found` mark data I could not confirm. Funding numbers are never estimated.
 - Amounts keep the currency of the source. Where sources disagree, the `notes` and `verification_status` columns say so.
-- `github_org` and `linkedin_url` are empty on purpose, reserved for the deal-flow tracker (phase 2).
+- `github_org` (22 companies) and `linkedin_url` (64 companies) were filled by the deal-flow tracker (phase 2). Each value's source is in the tracker's [watchlist](https://github.com/geve-ops/vc-dealflow-tracker/blob/main/data/watchlist.csv) (`github_source`, `linkedin_source`). Only the 69 mapped companies are covered.
 
 Current counts: 36 Include, 33 Borderline, 2 Hold, 17 Exclude.
 
