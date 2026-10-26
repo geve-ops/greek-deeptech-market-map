@@ -53,7 +53,7 @@ class Page:
         self.y -= gap
 
     def footer(self, n, total):
-        self.ax.text(LM, 0.45, "Greek Deep Tech | Gerald Velas | dataset as of 2026-10-16", fontfamily=BF, fontsize=8, color=GREY)
+        self.ax.text(LM, 0.45, "Greek Deep Tech | Gerald Velas | dataset as of October 2026", fontfamily=BF, fontsize=8, color=GREY)
         self.ax.text(W - RM, 0.45, f"{n}/{total}", fontfamily=BF, fontsize=8, color=GREY, ha="right")
 
     def save(self):
@@ -165,28 +165,36 @@ with PdfPages(OUT + "/greek_deeptech_analysis.pdf") as pdf:
 
 # ---------------------------------------------------------------- thesis
 with PdfPages(OUT + "/greek_deeptech_thesis_2027.pdf") as pdf:
-    pg = Page(pdf, "Where I'd invest in 2027", "Thesis draft for Greek deep tech. An opinion built on the dataset, not a recommendation to buy anything.")
-    pg.h("The view in one paragraph")
-    pg.p("Greek seed funds are finding and backing technical teams; the thin part is the step after seed, and the demand side (defense, space, energy, health systems) is growing faster than local venture-backed supply. "
-         "I would look for companies that sit where Greek capital, Greek engineering talent and a funded public or industrial buyer overlap, and that need a Series A rather than another seed.")
-    pg.h("Three bets")
-    pg.p("1. Physical AI and robot components (software and sensors, not whole robots).", size=10.2, gap=0.03)
-    pg.p("Evidence: Acumino raised USD 11.7M seed (June 2026) and joined Google DeepMind's robotics accelerator; Progressive Robotics and Terra Robotics (laser weeding, about EUR 1.8M seed, Uni.Fund-led, 2025) in Thessaloniki, Bota Systems and Robenso are all seed stage; "
-         "Gizelis Robotics is a local integrator with no external funding found. What would make it work: a Series A lead from outside Greece and an industrial pilot customer. Risk: most teams are one or two rounds old.", indent=0.2, size=9.3)
-    pg.p("2. Dual-use and defense autonomy.", size=10.2, gap=0.03)
-    pg.p("Evidence: Delian Alliance Industries (USD 14M Series A, July 2025, Air Street and Marathon); Mind The Hack (EUR 2.8M seed, Oct 2025); five drone makers with no disclosed venture round (EFA Group invests in two); EUR 350M Hellas-Space 2.0 as a sign of public demand. "
-         "The opening is component and software suppliers to those drone makers, and a second Delian-type company. Risk: long procurement cycles (my assumption, not in the dataset).", indent=0.2, size=9.3)
-    pg.p("3. Computational health and biotech tooling.", size=10.2, gap=0.03)
-    pg.p("Evidence: Health & Biotech is level with Robotics as the largest box (13 names each): ORamaVR (USD 4.5M, Jan 2026), Intelligencia, Causaly, Brainomix, Anacalypsis (first Greek VC investment in homegrown drug discovery per Metavallon). "
-         "New local capital (Kos, USD 123M, reported June 2026) should lift Series A options. Risk: wet-lab biotech is capital-heavy; I would favor software and instruments over therapeutics at this stage.", indent=0.2, size=9.3)
-    pg.h("Where I would not rush")
-    pg.p("Quantum: one company (QRBIT, an NTUA spin-off) and no venture round yet. I would track university spinouts through Metavallon's Brain Gain fund and ESA BIC Greece and revisit, rather than force a thesis.", bullet="-", indent=0.2, size=9.3)
-    pg.p("Pure application-layer AI: the AI box is full of seed-stage apps (Moveo.AI, Bitloops, Keragon). Differentiation is hard to see without product or revenue data this dataset does not hold.", bullet="-", indent=0.2, size=9.3)
-    pg.h("What I would check next")
-    for t in ["Confirm whether Axelera AI has any Greek team beyond its CTO and remote hires: if so, semiconductors is the strongest talent story; if not, the box stays thin.",
-              "Find the Series A and B investors who actually follow Greek seed rounds (Air Street, Molten, 8VC appear) and map their criteria.",
-              "Phase 2 tracker: hiring, funding news and GitHub activity for the 69 mapped names, starting with the robotics and defense groups."]:
-        pg.p(t, bullet="-", indent=0.2, size=9.3)
+    pg = Page(pdf, "Where I'd invest in 2027", "My view after mapping 69 Greek deep tech startups. This is my own opinion and not investment advice.")
+    pg.h("My view in short")
+    pg.p(size=9.3, text="I spent the last few weeks building a map of Greek deep tech startups and one thing kept coming up. Greek seed funds are good at finding technical teams early, "
+         "but very few of these companies raise a Series A while staying based in Greece. Out of the 16 companies on my map that reached Series A or later, only 3 have their headquarters here. "
+         "At the same time the state and the EU are putting real money into defense, space and energy. So in 2027 I would look for teams that already have a Greek seed round, "
+         "a paying public or industrial customer, and a good reason to keep growing in Greece.")
+    pg.h("Where I would put money")
+    pg.p("1. Robot software and sensors", size=10.2, gap=0.03)
+    pg.p("Acumino raised $11.7M at seed in June 2026 and was picked for Google DeepMind's first European robotics accelerator. Progressive Robotics and Terra Robotics in Thessaloniki, "
+         "Bota Systems and Robenso are all still at seed. I prefer software and sensors over full robots because they need less money. "
+         "What could go wrong: most of these teams are young and they will probably need a foreign investor to lead their Series A.", indent=0.2, size=9.0)
+    pg.p("2. Defense and dual use autonomy", size=10.2, gap=0.03)
+    pg.p("Delian Alliance Industries raised a $14M Series A in July 2025 with Air Street and Marathon, and Mind The Hack raised €2.8M in October 2025. "
+         "My map has at least five Greek drone makers with no disclosed venture round, and EFA Group has already invested in two of them. "
+         "I would look at the companies that supply parts and software to these drone makers. "
+         "What could go wrong: selling to governments takes a long time.", indent=0.2, size=9.0)
+    pg.p("3. Health and biotech software", size=10.2, gap=0.03)
+    pg.p("Health and biotech is one of the two biggest groups on my map with 13 companies, like ORamaVR ($4.5M in January 2026), Intelligencia, Causaly and Brainomix. "
+         "Kos Biotechnology Partners reached $123M for its first life sciences fund (reported in June 2026). "
+         "I would choose software and medical devices over new drugs, because developing a drug needs much more money than Greek funds can give.", indent=0.2, size=9.0)
+    pg.h("Where I would wait")
+    pg.p("Quantum. I found only one company, QRBIT, a 2025 spinout from NTUA, and no venture round yet. For now I would follow the university spinouts and the ESA BIC Greece incubator.", bullet="•", indent=0.2, size=9.0)
+    pg.p("Space. Greece is spending €350M on its Hellas Space 2.0 program, but the biggest space deals so far went to foreign companies with Greek offices, like Open Cosmos and OQ Technology. "
+         "I would wait for Greek teams like EMTech Space to raise real rounds first.", bullet="•", indent=0.2, size=9.0)
+    pg.p("Simple AI apps. There are a lot of seed stage AI apps and without revenue numbers it is hard to tell which ones will last.", bullet="•", indent=0.2, size=9.0)
+    pg.h("What I want to check next")
+    for t in ["Whether Axelera AI has a real team in Greece beyond its Greek cofounder and CTO.",
+              "Which foreign investors keep leading Greek Series A rounds (Air Street, Molten and 8VC show up in my data).",
+              "Phase 2: a tracker for hiring, funding news and GitHub activity across these 69 companies."]:
+        pg.p(t, bullet="•", indent=0.2, size=9.0)
     pg.footer(1, 1)
     pg.save()
 print("done", TF, BF)
